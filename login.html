@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0 ,  maximum-scale=1.0, user-scalable=0">
+	<title>Log In - Kekinian</title>
+	<link rel="stylesheet" href="assets/css/login.css">
+	<link rel="icon" href="assets/images/Group 10.png">
+</head>
+<body>
+		<div class="box">
+			<div class="content-left">
+				<div class="box-content-left">
+					<div class="logos">
+						<span>Logos</span>
+						<br>
+						<span>Selamat Datang!</span>
+						<p>Lorem ipsum dolor sit amet, cosectetur</p>
+					</div>
+					<div class="email">
+						<span>E-mail</span>
+						<input type="text" placeholder="Masukan email">
+					</div>
+					<div class="pass">
+						<span>Password</span>
+						<input type="password" placeholder="Masukan password">
+					</div>
+					<div class="confirm">
+						<div class="rememberme">
+							<input type="checkbox">
+							<span>Ingat saya</span>
+						</div>
+						<div class="forgot-pass">
+							<span><a href="#">Lupa kata sandi?</a></span>
+						</div>
+					</div>
+					<a id="logIn" href="index.html">
+						<span>Masuk</span>
+					</a>
+					<div class="or">
+						
+						<span>atau</span>
+						
+					</div>
+					<div class="log-google">
+						<a href="accounts.google.com">
+							<div class="img">
+								<img src="assets/images/Mask Group 1.svg" alt="">
+							</div>
+							<div class="capt">
+								<p>Masuk dengan Google </p>
+							</div>
+						</a>
+					</div>
+					<div class="log-fb">
+						<a href="https://m.facebook.com/login/?ref=dbl&fl&refid=8">
+							<div class="img">
+								<img src="assets/images/Mask Group 2.svg" alt="">
+							</div>
+							<div class="capt">
+								<p>Masuk dengan Facebook</p>
+							</div>
+						</a>
+					</div>
+					<div class="question">
+						<span>Tidak memiliki akun?</span><p><a href="register.html">Daftar</a></p>
+					</div>
+				</div>
+			</div>
+			<div id="content-right" class="content-right">
+				<img src="assets/images/room-7n8UzfK4B9M-unsplash.png" alt="">
+			</div>
+		</div>
+
+</body>
+<script>
+	const login = document.getElementById("logIn");
+
+	login.addEventListener("load", function() {
+		alert("Log In Anda Berhasil!");
+	});
+</script>
+</html>

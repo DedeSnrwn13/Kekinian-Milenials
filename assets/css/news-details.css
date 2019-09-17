@@ -1,0 +1,310 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.box {
+  width: 100vw;
+  height: 2125px;
+}
+
+.box .container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.box .container .title {
+  width: 785px;
+  height: 87px;
+  float: left;
+  padding-top: 84px;
+}
+
+.box .container .title span {
+  font-family: Montserrat-Bold;
+  font-size: 24px;
+  color: #070707;
+  text-align: left;
+}
+
+.box .container .title .time {
+  width: 300px;
+  height: 20px;
+  float: left;
+  position: absolute;
+  padding-top: 15px;
+}
+
+.box .container .title .time p {
+  width: 72px;
+  height: 20px;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #B7AEAE;
+  float: left;
+}
+
+.box .container .title .time .img {
+  width: 194px;
+  height: 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+  float: left;
+  margin-left: 10px;
+}
+
+.box .container .title .time .img img {
+  width: 18.67px;
+  height: 17px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+}
+
+.box .container .title .time .img p {
+  width: 175px;
+  height: 20px;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #B7AEAE;
+  float: left;
+  margin-left: 12px;
+}
+
+.box .container .fhoto {
+  width: 1088px;
+  height: 566px;
+  padding-top: 6px;
+  float: left;
+}
+
+.box .container .fhoto img {
+  width: 100%;
+  height: 100%;
+}
+
+.box .container .text-content {
+  width: 1003px;
+  height: 560px;
+  float: left;
+}
+
+.box .container .text-content p {
+  font-size: 15px;
+  font-family: OpenSans-Regular;
+  color: #070707;
+  text-align: left;
+}
+
+.box .container .text-content p:nth-child(1) {
+  margin-top: 20px;
+}
+
+.box .container .text-content p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.box .container .line {
+  width: 1066px;
+  padding-top: 57.5px;
+  float: left;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.box .container .line img {
+  width: 1066px;
+  height: .5px;
+}
+
+.box .container .comment {
+  width: 100%;
+  height: 389px;
+  float: left;
+  position: relative;
+  padding-top: 15.5px;
+}
+
+.box .container .comment span {
+  width: 105px;
+  height: 25px;
+  font-family: Montserrat-Regular;
+  font-size: 21px;
+  color: #000000;
+}
+
+.box .container .comment .box-comment {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  border: 2px solid #707070;
+  float: left;
+  margin-top: 23px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box .container .comment .box-comment .user {
+  width: 100%;
+  height: 70px;
+  float: left;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 15px;
+  padding-bottom: 2px;
+  display: block;
+}
+
+.box .container .comment .box-comment .user img {
+  width: 64px;
+  height: 68px;
+  float: left;
+}
+
+.box .container .comment .box-comment .user .box-user {
+  width: 150px;
+  height: 22px;
+  float: left;
+}
+
+.box .container .comment .box-comment .user .box-user span {
+  width: 110px;
+  height: 22px;
+  font-family: OpenSans-Bold;
+  font-size: 18px;
+  color: #000000;
+  float: left;
+  margin-left: 23px;
+  padding-top: 10px;
+}
+
+.box .container .comment .box-comment .user .box-user .time-comment {
+  width: 194px;
+  height: 20px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.box .container .comment .box-comment .user .box-user .time-comment img {
+  width: 18.67px;
+  height: 17px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+}
+
+.box .container .comment .box-comment .user .box-user .time-comment p {
+  width: 175px;
+  height: 20px;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #B7AEAE;
+  float: left;
+  margin-left: 12px;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_114" data-name="Rectangle 114" width="24" height="24" transform="translate(168 4166)" fill="#9b9b9b"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.008" x2="0.5" y2="0.998" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e09b3d"/>
+      <stop offset="0.3" stop-color="#c74c4d"/>
+      <stop offset="0.6" stop-color="#c21975"/>
+      <stop offset="1" stop-color="#7024c4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="-0.451" y2="1.462" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="-1.396" y2="6.586" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Mask_Group_21" data-name="Mask Group 21" transform="translate(-168 -4166)" clip-path="url(#clip-path)">
+    <g id="instagram" transform="translate(168 4166)">
+      <path id="Path_71" data-name="Path 71" d="M16.85,0H7.15A7.158,7.158,0,0,0,0,7.15v9.7A7.158,7.158,0,0,0,7.15,24h9.7A7.158,7.158,0,0,0,24,16.85V7.15A7.158,7.158,0,0,0,16.85,0Zm4.735,16.85a4.735,4.735,0,0,1-4.735,4.735H7.15A4.735,4.735,0,0,1,2.414,16.85V7.15A4.735,4.735,0,0,1,7.15,2.414h9.7A4.735,4.735,0,0,1,21.586,7.15v9.7Z" fill="url(#linear-gradient)"/>
+      <path id="Path_72" data-name="Path 72" d="M12,5.793A6.207,6.207,0,1,0,18.207,12,6.214,6.214,0,0,0,12,5.793Zm0,10A3.793,3.793,0,1,1,15.793,12,3.793,3.793,0,0,1,12,15.793Z" fill="url(#linear-gradient-2)"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="1.487" cy="1.487" r="1.487" transform="translate(16.732 4.352)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

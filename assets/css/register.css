@@ -1,0 +1,575 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  float: left;
+}
+
+.box .content-left {
+  width: 550px;
+  height: 100vh;
+  float: left;
+  background: #FFFFFF;
+}
+
+.box .content-left .left {
+  width: 400px;
+  height: 700px;
+  margin-left: 120px;
+  margin-right: 50px;
+  float: left;
+  padding-top: 30px;
+}
+
+.box .content-left .left .title {
+  width: 400px;
+  height: 99px;
+  float: left;
+}
+
+.box .content-left .left .title .logo {
+  width: 168px;
+  height: 31.59px;
+}
+
+.box .content-left .left .title .logo img {
+  width: 37.7px;
+  height: 30.49px;
+}
+
+.box .content-left .left .title .logo span {
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+  color: #FDD34C;
+  text-transform: uppercase;
+}
+
+.box .content-left .left .title .welcome {
+  width: 400px;
+  height: 62px;
+  float: left;
+}
+
+.box .content-left .left .title .welcome span {
+  font-family: Montserrat-Regular;
+  font-size: 30px;
+  color: #463939;
+}
+
+.box .content-left .left .title .welcome p {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #BCBCBC;
+  margin-top: 5px;
+}
+
+.box .content-left .left .form {
+  width: 400px;
+  height: 750px;
+  float: left;
+  margin-top: 21.5px;
+  display: block;
+  position: relative;
+}
+
+.box .content-left .left .form .name {
+  width: 100%;
+  height: 140.5px;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.box .content-left .left .form .name .name-front,
+.box .content-left .left .form .name .name-back {
+  width: 100%;
+  height: 62.51px;
+  float: left;
+  position: relative;
+}
+
+.box .content-left .left .form .name .name-front span,
+.box .content-left .left .form .name .name-back span {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  color: #515151;
+}
+
+.box .content-left .left .form .name .name-front input,
+.box .content-left .left .form .name .name-back input {
+  width: 400px;
+  height: 35px;
+  outline: none;
+  border: 1px solid #BCBCBC;
+  background: transparent;
+  margin-top: 8.5px;
+  padding-left: 8px;
+}
+
+.box .content-left .left .form .name .name-front input::-webkit-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .name .name-back input::-webkit-input-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .name .name-front input::-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .name .name-back input::-moz-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .name .name-front input:-ms-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .name .name-back input:-ms-input-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .name .name-front input:-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .name .name-back input:-moz-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .name .name-back {
+  margin-top: 15.5px;
+}
+
+.box .content-left .left .form .email,
+.box .content-left .left .form .pass {
+  width: 100%;
+  height: 62.51px;
+  position: relative;
+  float: left;
+  margin-top: 15.5px;
+}
+
+.box .content-left .left .form .email span,
+.box .content-left .left .form .pass span {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  color: #515151;
+}
+
+.box .content-left .left .form .email input,
+.box .content-left .left .form .pass input {
+  width: 400px;
+  height: 35px;
+  outline: none;
+  border: 1px solid #BCBCBC;
+  background: transparent;
+  margin-top: 8.5px;
+  padding-left: 8px;
+}
+
+.box .content-left .left .form .email input::-webkit-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .pass input::-webkit-input-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .email input::-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .pass input::-moz-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .email input:-ms-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .pass input:-ms-input-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .email input:-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .form .pass input:-moz-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .left .form .ttl {
+  width: 100%;
+  height: 75.5px;
+  float: left;
+  margin-top: 27.3px;
+}
+
+.box .content-left .left .form .ttl select#tgl,
+.box .content-left .left .form .ttl select#month,
+.box .content-left .left .form .ttl select#years {
+  float: left;
+  width: 81px;
+  height: 35.4px;
+  background: transparent;
+  border: 1px solid #BCBCBC;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  outline: none;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.box .content-left .left .form .ttl select#tgl option,
+.box .content-left .left .form .ttl select#month option,
+.box .content-left .left .form .ttl select#years option {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+  text-align: center;
+}
+
+.box .content-left .left .form .ttl select#month,
+.box .content-left .left .form .ttl select#years {
+  margin-left: 15px;
+}
+
+.box .content-left .left .form .ttl .confirm {
+  width: 400px;
+  height: 16px;
+  float: left;
+  position: relative;
+  margin-top: 11.8px;
+}
+
+.box .content-left .left .form .ttl .confirm input {
+  width: 12px;
+  height: 12px !important;
+  border-radius: 3px;
+  background: transparent;
+  border: 2px solid #BCBCBC;
+  float: left;
+}
+
+.box .content-left .left .form .ttl .confirm p {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  float: left;
+  margin-left: 5px;
+  color: #BCBCBC;
+  margin-top: -2px;
+}
+
+.box .content-left .left .form a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.box .content-left .left .form a .btn {
+  width: 100%;
+  height: 42px;
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  background: #073C64;
+}
+
+.box .content-left .left .form a .btn span {
+  color: #FFFFFF;
+  padding-left: 175px;
+  padding-right: 175px;
+  margin-top: 11.5px;
+  float: left;
+}
+
+.box .content-left .left .form .question {
+  width: 400px;
+  height: 16px;
+  float: left;
+  margin-top: 16px;
+}
+
+.box .content-left .left .form .question span {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  float: left;
+  color: #BCBCBC;
+  letter-spacing: 2px;
+}
+
+.box .content-left .left .form .question p {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  cursor: pointer;
+  float: left;
+}
+
+.box .content-left .left .form .question p a {
+  text-decoration: none;
+  margin-left: 10px;
+  float: left;
+  color: #073C64;
+}
+
+.box .content-right {
+  width: 600px;
+  height: 100vh;
+  float: left;
+}
+
+.box .content-right img {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .content-left {
+    width: 600px !important;
+    height: 100vh;
+  }
+  .left {
+    padding-top: 20px !important;
+    margin-left: 100px !important;
+  }
+  .left .form input {
+    height: 45px;
+  }
+  .left .form .confirm {
+    width: 100% !important;
+  }
+  .content-right {
+    width: 840px !important;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .box {
+    height: 680px !important;
+  }
+  .content-left {
+    width: 500px !important;
+    height: 500px !important;
+  }
+  .left {
+    width: 420px !important;
+    margin-left: 50px !important;
+    margin-right: 20px !important;
+    padding-top: 40px !important;
+     height: 530px !important;
+  }
+  .form {
+    height: 500px !important;
+  }
+  .content-right {
+    width: 520px !important;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .content-left {
+    width: 340px !important;
+  }
+  .left {
+    width: 280px !important;
+    padding-top: 30px !important;
+    margin-left: 30px !important;
+  }
+  .title {
+    width: 280px !important;
+  }
+  .form {
+     width: 280px !important;
+  }
+  .name {
+     width: 280px !important;
+  }
+  .name .name-front, 
+  .name-back, 
+  .email,
+  .pass,
+  .ttl{
+    width: 280px !important;
+  }
+  .name .name-front input,
+  .name .name-back input,
+  .email input,
+  .pass input,
+  .ttl {
+     width: 260px !important;
+  }
+  .ttl select#month,
+  .ttl select#years {
+    margin-left: 8.5px !important;
+  }
+  .confirm {
+    width: 270px !important;
+  }
+  .confirm p {
+    font-size: 12px !important;
+  }
+  .btn {
+    width: 270px !important;
+    -ms-text-align-last: center;
+    text-align-last: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+  .btn span {
+    display: block !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      font-size: 12px;
+      justify-content: center;
+      margin-top: 12px !important;
+  }
+  .content-right {
+    width: 428px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .content-right {
+      display: none;
+    }
+    .left {
+      padding-left: 25px;
+      margin-left: 45px !important;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+   .content-right {
+      display: none;
+    }
+    .left {
+
+      margin-left: 15px !important;
+    }
+}

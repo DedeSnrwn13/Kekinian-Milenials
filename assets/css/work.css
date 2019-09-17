@@ -1,0 +1,356 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.works {
+  width: 100vw;
+  height: 4500px;
+  background: #FFFFFF;
+  float: left;
+}
+
+.works .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.works .container .work {
+  width: 100%;
+  height: 750px;
+  float: left;
+  margin-top: 40px;
+}
+
+.works .container .work span {
+  width: 650px;
+  height: 33px;
+  font-family: Montserrat-Regular;
+  font-size: 27px;
+  float: left;
+  color: #070707;
+}
+
+.works .container .work .img {
+  width: 100%;
+  height: 745px;
+  float: left;
+  margin-top: 10px;
+}
+
+.works .container .work .img img {
+  width: 100%;
+  height: 466px;
+  -o-object-fit: center;
+  object-fit: center;
+}
+
+.works .container .work .img .desc {
+  width: 100%;
+  height: 160px;
+  float: left;
+  margin-top: 10px;
+}
+
+.works .container .work .img .desc .f-one,
+.works .container .work .img .desc .f-two,
+.works .container .work .img .desc .f-three {
+  width: 100%;
+  height: 46px;
+  float: left;
+}
+
+.works .container .work .img .desc .f-one p,
+.works .container .work .img .desc .f-two p,
+.works .container .work .img .desc .f-three p {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.works .container .work .img .desc .f-two,
+.works .container .work .img .desc .f-three {
+  margin-top: 10px;
+}
+
+.works .container .work-one {
+  width: 100%;
+  height: 640px;
+  float: left;
+  margin-top: 20px;
+}
+
+.works .container .work-one span {
+  width: 100%;
+  height: 30px;
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+}
+
+.works .container .work-one span a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.works .container .work-one img {
+  width: 630px;
+  height: 408px;
+  padding-left: 218px;
+  padding-right: 218px;
+  margin-top: 20px;
+}
+
+.works .container .work-one .desc-one {
+  width: 100%;
+  height: 161px;
+  float: left;
+}
+
+.works .container .work-one .desc-one p {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  float: left;
+  color: #000000;
+}
+
+.works .container .work-one .desc-one p.p2 {
+  margin-top: 15px !important;
+}
+
+.works .container .work-one .desc-one p:first-letter {
+  margin-left: 20px;
+}
+
+.works .container .work-two {
+  width: 100%;
+  height: 662px;
+  float: left;
+  margin-top: 25px;
+}
+
+.works .container .work-two span {
+  width: 100%;
+  height: 30px;
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+}
+
+.works .container .work-two span a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.works .container .work-two img {
+  width: 630px;
+  height: 408px;
+  padding-left: 218px;
+  padding-right: 218px;
+  margin-top: 20px;
+}
+
+.works .container .work-two .desc-two {
+  width: 100%;
+  height: 185px;
+  float: left;
+}
+
+.works .container .work-two .desc-two p {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  float: left;
+  color: #000000;
+}
+
+.works .container .work-two .desc-two p.p2,
+.works .container .work-two .desc-two p.p3 {
+  margin-top: 15px !important;
+}
+
+.works .container .work-two .desc-two p.p2:first-letter,
+.works .container .work-two .desc-two p.p3:first-letter {
+  margin-left: 20px;
+}
+
+.works .container .work-three {
+  width: 100%;
+  height: 593px;
+  float: left;
+  margin-top: 20px;
+}
+
+.works .container .work-three span {
+  width: 100%;
+  height: 30px;
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+}
+
+.works .container .work-three span a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.works .container .work-three img {
+  width: 630px;
+  height: 408px;
+  padding-left: 218px;
+  padding-right: 218px;
+  margin-top: 20px;
+}
+
+.works .container .work-three .desc-three {
+  width: 100%;
+  height: 115px;
+  float: left;
+}
+
+.works .container .work-three .desc-three p {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  float: left;
+  color: #000000;
+}
+
+.works .container .work-three .desc-three p.p2 {
+  margin-top: 15px !important;
+}
+
+.works .container .work-three .desc-three p:first-letter {
+  margin-left: 20px;
+}
+
+.works .container .share {
+  width: 100%;
+  height: 56px;
+  float: left;
+}
+
+.works .container .share span {
+  width: 100%;
+  height: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 17px;
+  float: left;
+  color: #000000;
+}
+
+.works .container .share .img-share {
+  width: 92px;
+  height: 26px;
+  float: left;
+  margin-top: 12px;
+}
+
+.works .container .share .img-share img:nth-child(1),
+.works .container .share .img-share img:nth-child(2),
+.works .container .share .img-share img:nth-child(3) {
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+
+.works .container .share .img-share img:nth-child(2),
+.works .container .share .img-share img:nth-child(3) {
+  margin-left: 10px;
+}

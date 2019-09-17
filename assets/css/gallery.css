@@ -1,0 +1,340 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.gallery {
+  width: 100vw;
+  height: 1250px;
+  background: #FFFFFF;
+}
+
+.gallery .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.gallery .container .title {
+  width: 100%;
+  height: 40px;
+  float: left;
+  position: relative;
+  margin-top: 34px;
+}
+
+.gallery .container .title span {
+  width: 100%;
+  height: 25px;
+  font-family: Montserrat-Regular;
+  font-size: 34px;
+  color: #073C64;
+  position: relative;
+}
+
+.gallery .container .line {
+  width: 80px;
+  height: 3px;
+  background: #FDD34C;
+  margin-top: 2px;
+  float: left;
+}
+
+.gallery .container .gall {
+  width: 100%;
+  height: 800px;
+  padding-top: 26px;
+  float: left;
+}
+
+.gallery .container .gall .content-left {
+  width: 770px;
+  height: 500px;
+  float: left !important;
+}
+
+.gallery .container .gall .content-left .top {
+  width: 770px;
+  height: 240px;
+  float: left;
+}
+
+.gallery .container .gall .content-left .top .content-img-top-left,
+.gallery .container .gall .content-left .top .content-img-top-right {
+  width: 370px;
+  height: 240px;
+  float: left;
+}
+
+.gallery .container .gall .content-left .top .content-img-top-left img,
+.gallery .container .gall .content-left .top .content-img-top-right img {
+  width: 370px;
+  height: 240px;
+  float: left;
+}
+
+.gallery .container .gall .content-left .top .content-img-top-left .shadow,
+.gallery .container .gall .content-left .top .content-img-top-right .shadow {
+  width: 370px;
+  height: 240px;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 3;
+  position: absolute;
+}
+
+.gallery .container .gall .content-left .top .content-img-top-left .shadow span,
+.gallery .container .gall .content-left .top .content-img-top-right .shadow span {
+  width: 330px;
+  height: 56px;
+  font-family: Montserrat-Bold;
+  font-size: 17px;
+  color: #FFFFFF;
+  position: absolute;
+  padding-top: 170px;
+  padding-left: 30px;
+}
+
+.gallery .container .gall .content-left .top .content-img-top-right {
+  margin-left: 16px;
+}
+
+.gallery .container .gall .content-left .bottom {
+  width: 770px;
+  height: 240px;
+  margin-top: 16px;
+  float: left;
+}
+
+.gallery .container .gall .content-left .bottom .content-img-bottom-left,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right {
+  width: 370px;
+  height: 240px;
+  float: left;
+}
+
+.gallery .container .gall .content-left .bottom .content-img-bottom-left img,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right img {
+  width: 370px;
+  height: 240px;
+  float: left;
+}
+
+.gallery .container .gall .content-left .bottom .content-img-bottom-left .shadow,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right .shadow {
+  width: 370px;
+  height: 240px;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 3;
+  position: absolute;
+}
+
+.gallery .container .gall .content-left .bottom .content-img-bottom-left .shadow span,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right .shadow span {
+  width: 330px;
+  height: 56px;
+  font-family: Montserrat-Bold;
+  font-size: 17px;
+  color: #FFFFFF;
+  position: absolute;
+  padding-top: 170px;
+  padding-left: 30px;
+}
+
+.gallery .container .gall .content-left .bottom .content-img-bottom-right {
+  margin-left: 16px;
+}
+
+.gallery .container .gall .content-right {
+  width: 281px;
+  height: 700px;
+  float: right;
+}
+
+.gallery .container .gall .content-right .title-two {
+  width: 281px;
+  height: 76px;
+  float: left !important;
+  border-left: 3px solid #F23E3E;
+  background: rgba(142, 142, 142, 0.09);
+}
+
+.gallery .container .gall .content-right .title-two p {
+  font-family: Roboto-Bold;
+  font-size: 21px;
+  letter-spacing: .5px;
+  color: #073C64;
+  text-transform: uppercase;
+  padding-top: 26.5px;
+  padding-left: 20px;
+}
+
+.gallery .container .gall .content-right .img {
+  width: 211px;
+  height: 120px;
+  float: left;
+  margin-top: 40px;
+}
+
+.gallery .container .gall .content-right .img img {
+  width: 211px;
+  height: 120px;
+  float: left;
+}
+
+.gallery .container .gall .content-right .img .mask {
+  width: 211px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  position: absolute;
+}
+
+.gallery .container .gall .content-right .date {
+  width: 210px;
+  height: 20px;
+  float: left;
+  margin-top: 23px;
+}
+
+.gallery .container .gall .content-right .date img {
+  width: 18.67px;
+  height: 17px;
+  float: left;
+}
+
+.gallery .container .gall .content-right .date p {
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  float: left;
+  margin-left: 14.3px;
+  color: #070707;
+}
+
+.gallery .container .gall .content-right .content {
+  width: 281px;
+  height: 305px;
+  float: left;
+  margin-top: 23px;
+}
+
+.gallery .container .gall .content-right .content .title-content {
+  width: 281px;
+  height: 56px;
+  float: left;
+}
+
+.gallery .container .gall .content-right .content .title-content span {
+  font-family: Roboto-Bold;
+  font-size: 23px;
+  color: #073C64;
+}
+
+.gallery .container .gall .content-right .content .text-content {
+  width: 250px;
+  height: 236px;
+  float: left;
+  margin-top: 11px;
+}
+
+.gallery .container .gall .content-right .content .text-content p {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #070707;
+}

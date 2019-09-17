@@ -1,0 +1,287 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.newsOne {
+  width: 100vw;
+  height: 1700px;
+  background: #FFFFFF;
+  float: left;
+}
+
+.newsOne .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.newsOne .container .news {
+  width: 100%;
+  height: 1386px;
+  float: left;
+  margin-top: 40px;
+}
+
+.newsOne .container .news span {
+  width: 100%;
+  height: 33px;
+  font-family: Montserrat-Regular;
+  font-size: 27px;
+  float: left;
+  color: #070707;
+}
+
+.newsOne .container .news .img {
+  width: 100%;
+  height: 1290px;
+  float: left;
+  margin-top: 10px;
+}
+
+.newsOne .container .news .img img {
+  width: 100%;
+  height: 466px;
+  -o-object-fit: center;
+  object-fit: center;
+}
+
+.newsOne .container .news .img .desc {
+  width: 100%;
+  height: 764px;
+  float: left;
+  margin-top: 10px;
+}
+
+.newsOne .container .news .img .desc .f-one {
+  width: 100%;
+  height: 142px;
+  float: left;
+}
+
+.newsOne .container .news .img .desc .f-one p {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.newsOne .container .news .img .desc .f-one p:nth-child(2) {
+  margin-top: 20px;
+}
+
+.newsOne .container .news .img .desc .f-one p.p1:first-letter {
+  margin-left: 20px;
+}
+
+.newsOne .container .news .img .desc .f-two {
+  width: 100%;
+  height: 103px;
+  float: left;
+  margin-top: 37px;
+}
+
+.newsOne .container .news .img .desc .f-two p.f-2 {
+  margin-top: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+}
+
+.newsOne .container .news .img .desc .f-two p.p-2 {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.newsOne .container .news .img .desc .f-two p.p-2:first-letter {
+  margin-left: 20px;
+}
+
+.newsOne .container .news .img .desc .f-three {
+  width: 100%;
+  height: 103px;
+  float: left;
+  margin-top: 40px;
+}
+
+.newsOne .container .news .img .desc .f-three p.f-3 {
+  margin-top: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+}
+
+.newsOne .container .news .img .desc .f-three p.p-3 {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.newsOne .container .news .img .desc .f-three p.p-3:first-letter {
+  margin-left: 20px;
+}
+
+.newsOne .container .news .img .desc .f-four {
+  width: 100%;
+  height: 280px;
+  float: left;
+  margin-top: 40px;
+}
+
+.newsOne .container .news .img .desc .f-four p.f-4 {
+  margin-top: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+}
+
+.newsOne .container .news .img .desc .f-four p.p-4 {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.newsOne .container .news .img .desc .f-four p.p-4:first-letter {
+  margin-left: 20px;
+}
+
+.newsOne .container .news .img .desc .f-four p.p-5 {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.newsOne .container .news .img .desc .f-four p.p-6 {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #000000;
+}
+
+.newsOne .container .share {
+  width: 100%;
+  height: 56px;
+  float: left;
+}
+
+.newsOne .container .share span {
+  width: 100%;
+  height: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 17px;
+  float: left;
+  color: #000000;
+}
+
+.newsOne .container .share .img-share {
+  width: 92px;
+  height: 26px;
+  float: left;
+  margin-top: 12px;
+}
+
+.newsOne .container .share .img-share img:nth-child(1),
+.newsOne .container .share .img-share img:nth-child(2),
+.newsOne .container .share .img-share img:nth-child(3) {
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+
+.newsOne .container .share .img-share img:nth-child(2),
+.newsOne .container .share .img-share img:nth-child(3) {
+  margin-left: 10px;
+}

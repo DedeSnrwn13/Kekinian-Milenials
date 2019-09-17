@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20">
+  <g id="Group_6" data-name="Group 6" transform="translate(-1094 -57)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="25" height="10" transform="translate(1094 57)" fill="red"/>
+    <g id="Rectangle_19" data-name="Rectangle 19" transform="translate(1094 67)" fill="#fff" stroke="#707070" stroke-width="0.2">
+      <rect width="25" height="10" stroke="none"/>
+      <rect x="0.1" y="0.1" width="24.8" height="9.8" fill="none"/>
+    </g>
+  </g>
+</svg>

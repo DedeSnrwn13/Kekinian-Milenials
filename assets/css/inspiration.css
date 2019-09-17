@@ -1,0 +1,303 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.inspiration {
+  width: 100vw;
+  height: 800px;
+  background: rgba(142, 142, 142, 0.09);
+}
+
+.inspiration .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.inspiration .container .inspirate {
+  width: 100%;
+  height: 800px;
+  float: left;
+}
+
+.inspiration .container .inspirate .dropdown {
+  width: 100%;
+  height: 30px;
+  float: left;
+  background: #FFFFFF;
+  margin-top: 50px;
+}
+
+.inspiration .container .inspirate .dropdown span {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #000000;
+  float: left;
+  padding-left: 10px;
+  padding-right: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.inspiration .container .inspirate .dropdown img {
+  float: left;
+  margin-left: 15px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+
+.inspiration .container .inspirate .content-left {
+  width: 740px;
+  height: 525px;
+  float: left;
+  background: #FFFFFF;
+  margin-top: 15px;
+}
+
+.inspiration .container .inspirate .content-left .profil {
+  width: 100%;
+  height: 57px;
+  float: left;
+  margin-top: 10px;
+  -webkit-box-shadow: 2px 4px 2px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 4px 2px -2px rgba(0, 0, 0, 0.05);
+}
+
+.inspiration .container .inspirate .content-left .profil img {
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin-left: 15px;
+}
+
+.inspiration .container .inspirate .content-left .profil span {
+  width: 390px;
+  height: 24px;
+  font-family: Montserrat-Regular;
+  font-size: 29px;
+  float: left;
+  color: #1E1E1E;
+  margin-left: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.inspiration .container .inspirate .content-left .img {
+  width: 100%;
+  height: 420px;
+  float: left;
+}
+
+.inspiration .container .inspirate .content-left .img img {
+  width: 650px !important;
+  height: 390px !important;
+  float: left;
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+.inspiration .container .inspirate .content-left .react {
+  width: 100%;
+  height: 16px;
+  float: left;
+  margin-top: 5px;
+}
+
+.inspiration .container .inspirate .content-left .react .comments,
+.inspiration .container .inspirate .content-left .react .reacts,
+.inspiration .container .inspirate .content-left .react .views {
+  width: 100px;
+  height: 16px;
+  float: left;
+}
+
+.inspiration .container .inspirate .content-left .react .comments img,
+.inspiration .container .inspirate .content-left .react .reacts img,
+.inspiration .container .inspirate .content-left .react .views img {
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+.inspiration .container .inspirate .content-left .react .comments span,
+.inspiration .container .inspirate .content-left .react .reacts span,
+.inspiration .container .inspirate .content-left .react .views span {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  color: #077777;
+  margin-left: 5px;
+}
+
+.inspiration .container .inspirate .content-left .react .comments {
+  margin-left: 50px;
+}
+
+.inspiration .container .inspirate .content-left .react .reacts,
+.inspiration .container .inspirate .content-left .react .views {
+  margin-left: 10px;
+}
+
+.inspiration .container .inspirate .content-right {
+  width: 260px;
+  height: 400px;
+  float: right;
+  margin-top: 15px;
+}
+
+.inspiration .container .inspirate .content-right a {
+  text-decoration: none;
+}
+
+.inspiration .container .inspirate .content-right a .btn {
+  width: 260px;
+  height: 42px;
+  float: left;
+  background: #073C64;
+}
+
+.inspiration .container .inspirate .content-right a .btn p {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #FFFFFF;
+  padding-left: 66.5px;
+  padding-right: 66.5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.inspiration .container .inspirate .content-right .dll {
+  width: 260px;
+  height: 105px;
+  float: left;
+  background: #FFFFFF;
+  margin-top: 50px;
+}
+
+.inspiration .container .inspirate .content-right .dll .post,
+.inspiration .container .inspirate .content-right .dll .foll {
+  width: 200px;
+  height: 23px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.inspiration .container .inspirate .content-right .dll .post img,
+.inspiration .container .inspirate .content-right .dll .foll img {
+  width: 25px;
+  height: 23px;
+  float: left;
+}
+
+.inspiration .container .inspirate .content-right .dll .post p,
+.inspiration .container .inspirate .content-right .dll .foll p {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  float: left;
+  padding-top: 3px;
+  margin-left: 7px;
+}
+
+.inspiration .container .inspirate .content-right .dll .post p a,
+.inspiration .container .inspirate .content-right .dll .foll p a {
+  text-decoration: none;
+  color: #000000;
+}
