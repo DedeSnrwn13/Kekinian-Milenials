@@ -961,6 +961,19 @@ footer .container-two .footer-menu .notive .btn-notive span a {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  header .navbar .container #sidebar .menu-toggle div {
+    background: #073C64;
+    transition: .3s ease;
+  }
+  header .navbar .container #sidebar .menu-toggle .one:hover {
+    width: 25px;
+  }
+  header .navbar .container #sidebar .menu-toggle .two:hover {
+    width: 15px;
+  }
+  header .navbar .container #sidebar .menu-toggle .three:hover {
+    width: 20px;
+  }
   .navbar-responsive {
     transition: .5s ease !important;
   }
@@ -1048,6 +1061,11 @@ footer .container-two .footer-menu .notive .btn-notive span a {
   .menu-bar-xs ul li#inspiration a {
     padding-top: 8px;
   } 
+  .menu-bar-xs ul li:hover{
+    border-left: 5px solid #FDD34C;
+    color: #073C64;
+    transition: .3s;
+  }
   .menu-bar-xs li.current-xs {
     border-left: 5px solid #FDD34C;
     height: 100% !important;

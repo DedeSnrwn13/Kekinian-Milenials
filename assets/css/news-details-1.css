@@ -120,6 +120,10 @@ a {
   margin-top: 40px;
 }
 
+.newsOne .container .opt {
+  display: none;
+}
+
 .newsOne .container .news span {
   width: 100%;
   height: 33px;
@@ -231,4 +235,117 @@ a {
 .newsOne .container .share .img-share img:nth-child(2),
 .newsOne .container .share .img-share img:nth-child(3) {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .newsOne {
+    width: 100vw;
+    height: 1190px;
+  }
+  .newsOne .container {
+     max-width: 284px;
+    margin: 0 auto;
+  }
+  .news {
+    width: 100%;
+    height: 1100px !important;
+    margin-top: 12px !important;
+  }
+  .news .opt {
+    width: 100%;
+    height: 17px;
+    display: block !important;
+    position: relative;
+    float: left;
+  }
+  .news .opt p {
+    float: left;
+    font-size: 12px;
+    font-family: OpenSans-Regular;
+    
+    position: relative;
+  }
+  .news .opt p a{
+    text-decoration: none;
+    color: #073C64;
+  }
+  .news .opt img {
+    width: 4px;
+    height: 8px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+  .news span {
+    font-size: 14px !important;
+    width: 100%;  
+    margin-top: 8px;
+  }
+  .img {
+    width: 100%;
+    height: unset !important;
+    margin-top: 18px !important;
+
+  }
+  .img img {
+    width: 100%;
+    height: 186px !important;
+  }
+  .img .desc {
+    width: 100%;
+    height: 795px !important;
+    float: left;
+
+  }
+  .img .desc .f-one {
+    width: 100%;
+    height: 140px !important;
+    float: left;
+  }
+  .img .desc .f-one p.p1 {
+    font-size: 12px !important;
+    height: unset;
+  }
+  .img .desc .f-one p {
+    font-size: 12px !important;
+    height: unset;
+    float: left;
+  }
+  .img .desc .f-two {
+    width: 100%;
+    height: 242px !important;
+    float: left;
+    margin-top: 20px !important;
+  }
+  .img .desc .f-two p {
+     font-size: 12px !important;
+    float: left;
+  }
+  .img .desc .f-three {
+    width: 100%;
+    float: left;
+    height: 412px !important;
+  }
+  .img .desc .f-three p {
+    font-size: 12px !important;
+    float: left;
+  }
+  .share {
+    width: 100%;
+    height: 35px !important;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .share span {
+    width: unset !important;
+    font-size: 14px !important;
+  }
+  .share .img-share {
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+  }
 }
