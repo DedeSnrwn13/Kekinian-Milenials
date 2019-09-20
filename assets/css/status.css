@@ -503,7 +503,9 @@ a {
   }
   .menu-bar-xs {
     width: 100%;
+    height: 190px !important;
     margin-top: 3px;
+    float: left !important;
   }
   .menu-bar-xs ul {
     font-family: OpenSans-Regular;
@@ -542,9 +544,9 @@ a {
     color: #073C64;
     transition: .3s;
   }
-  .menu-bar-xs li.current-xs {
+  .menu-bar-xs li#inspiration {
+    height: 35px !important;
     border-left: 5px solid #FDD34C;
-    height: 100% !important;
    
   }
   .menu-bar-xs ul li#home.current-xs a {
@@ -554,6 +556,7 @@ a {
     width: 100%;
     height: 30px;
     margin-top: 20px;
+    float: left;
   }
   .search-xs input {
     width: 190px;
@@ -705,13 +708,13 @@ a {
     margin-bottom: 21px !important;
    }
    .statusOne {
-    width: 100%;
+    width: 100% !important;
     height: 175px !important;
     margin-left: 14px !important;
     margin-top: 16px !important;
    }
    .statusOne .top {
-    width: 100%;
+    width: 100% !important;
     height: 50px !important;
    }
    .statusOne .top img {
@@ -745,8 +748,8 @@ a {
     overflow: auto;
 
    }
-   .react {
-
+   .statusOne .react {
+    width: 100% !important;
     margin-top: 10px !important;
     margin-left: 0 !important;
    }
@@ -757,8 +760,11 @@ a {
    .statusOne  .line {
     margin-top: 20px !important;
    }
+   .statusTwo  .line {
+    margin-top: 10px !important;
+   }
    .statusTwo {
-    width: 100%;
+    width: 100% !important;
     height: 290px !important;
     margin-left: 0 !important;
    }
@@ -784,6 +790,7 @@ a {
       margin-left: 17px !important;
    }
    .statusTwo .bottom {
+    width: 100% !important;
     margin-left: 0 !important;
    }
    .statusTwo .left {
@@ -799,13 +806,22 @@ a {
     margin-top: 15px !important;
    }
    .statusTwo .right {
-    width: 100%;
+    margin-top: 20px !important;
+    width: 100% !important;
     height: 86px !important;
     float: left !important;
+    overflow: auto;
     display: block;
+    float: left !important;
    }
    .statusTwo .right p {
     font-size: 12px !important;
-    font-family: Roboto-Regular !important;
+    font-family: Roboto-Regular;
+    line-height: 20px !important;
+   }
+   .statusTwo .react {
+    width: 100% !important;
+    margin-top: 20px !important;
+    margin-left: 0 !important;
    }
 }

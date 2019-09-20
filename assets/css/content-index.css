@@ -58,6 +58,11 @@
 }
 
 @font-face {
+  font-family: Roboto-Regular;
+  src: url(".././fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
   font-family: Roboto-Thin;
   src: url(".././fonts/Roboto-Thin.ttf");
 }
@@ -241,7 +246,14 @@
   background: #073C64;
   margin-top: 30px;
   float: left;
+  transition: .3s ease;
 }
+.content-hoax .container #content-hoax-left .text-title .btn-readMore-hoax:hover {
+  transition: .3s ease;
+  
+  margin-top: 10px;
+}
+ 
 
 .content-hoax .container #content-hoax-left .text-title .btn-readMore-hoax span#text-btn-readMore-hoax {
   font-family: OpenSans-Semibold;
@@ -257,8 +269,13 @@
   font-size: 12px;
   color: #FFFFFF;
   text-decoration: none;
+  transition: .3s ease;
 }
 
+.content-hoax .container #content-hoax-left .text-title .btn-readMore-hoax span#text-btn-readMore-hoax a:hover {
+  color: #FDD34C;
+  transition: .3s ease;
+}
 .content-hoax .container #content-hoax-right {
   float: right;
   width: 436px;
@@ -274,8 +291,9 @@
   height: 112px;
   margin-left: 300px;
   position: absolute;
-  margin-top: -21px;
+  margin-top: -18px;
   float: right;
+  z-index: 1111;
 }
 
 .content-hoax .container #content-hoax-right .side-top-right img {
@@ -287,11 +305,20 @@
   width: 415px;
   height: 290px;
   margin-left: 23px;
+
 }
 
 .content-hoax .container #content-hoax-right .img-hoax img {
   width: 390px;
   height: 275px;
+  transition: .3s ease;
+  box-sizing: border-box;
+}
+
+.content-hoax .container #content-hoax-right .img-hoax img:hover {
+  box-shadow: 10px 15px 2px 2px rgba(0, 0, 0, 0.05);
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .content-hoax .container #content-hoax-right .side-bottom-left {
@@ -412,8 +439,14 @@
   height: 39px;
   background: #073C64;
   margin-top: 20px;
+  box-sizing: border-box;
+  transition: .3s ease;
 }
-
+.berita-utama .container .berita-right .desc-berita-utama .btn-readMore-berita-utama:hover  {
+  transition: .3s ease;
+  background: #073C50;
+  margin-top: 30px;
+}
 .berita-utama .container .berita-right .desc-berita-utama .btn-readMore-berita-utama span#text-btn-readMore-berita-utama {
   font-family: OpenSans-Semibold;
   display: -webkit-flex;
@@ -422,12 +455,18 @@
   display: flex;
   position: absolute;
   padding: 11px;
+  transition: .3s ease;
 }
 
 .berita-utama .container .berita-right .desc-berita-utama .btn-readMore-berita-utama span#text-btn-readMore-berita-utama a {
   font-size: 12px;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.berita-utama .container .berita-right .desc-berita-utama .btn-readMore-berita-utama span#text-btn-readMore-berita-utama a:hover {
+  color: #FDD34C;
+  transition: .3s ease;
 }
 
 .berita-utama .container .pagination {
@@ -448,15 +487,25 @@
 
 .berita-lainnya .container .content-berita-lainnya {
   width: 100%;
-  height: 300px;
+  height: 350px;
+  transition: .3s;
+ 
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya {
   width: 345px;
-  height: 208.30px;
+  height: 320px;
   float: left;
-}
+  box-sizing: border-box;
+  transition: .3s ease;
+   margin-top: 20px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.1);
 
+}
+.berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:hover {
+  transition: .3s ease;
+  margin-top: 10px;
+}
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya img {
   width: 345px;
   height: 208.30px;
@@ -465,6 +514,7 @@
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low {
   width: 345px;
   height: 60px;
+  padding-left: 15px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low p {
@@ -497,6 +547,7 @@
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-left: 15px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya span#text-btn-readMore-berita-lainnya {
@@ -522,7 +573,15 @@
   background-color: transparent;
   margin: 0 auto;
   border: 2px solid #C6C6C6;
-  margin-top: 30px;
+  margin-top: 50px;
+  transition: .3s ease;
+}
+
+.berita-lainnya .container .button-news:hover {
+  background: #073C64;
+  color: #FFF;
+  transition: .3s ease;
+  border: none;
 }
 
 .berita-lainnya .container .button-news a {
@@ -530,13 +589,18 @@
   padding-left: 26.2px;
   padding-right: 26.2px;
   padding-top: 11px;
+  transition: .3s ease;
   padding-bottom: 11px;
 }
-
+.berita-lainnya .container .button-news a span:hover {
+  color: #FFF;
+  transition: .3s ease;
+}
 .berita-lainnya .container .button-news a span {
   font-family: Montserrat-Regular;
   font-size: 13px;
   color: #777777;
+  transition: .3s ease;
 }
 
 .gallery {
@@ -587,19 +651,98 @@
   padding-right: 0px;
   padding-top: 20px;
   padding-bottom: 0px;
-}
 
-.gallery .container .gal-img .img-top img {
+}
+.parent {
   width: 525px !important;
   height: 290px !important;
+  overflow: hidden;
+  position: relative;
   float: left;
-  position: relative !important;
+  display: inline-block;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.parent .child {
+    width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+.parent2 {
+  width: 525px !important;
+  height: 290px !important;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.parent2 .child {
+    width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.parent .bg-one{
+  background-image: url("./../images/a-l-ya631mqQ7Ng-unsplash.png");
+}
+.parent2 .bg-two{
+  background-image: url("./../images/elevate-nYgy58eb9aw-unsplash.png");
+}
+.parent p,
+.parent2 p {
+    display: none;
+  font-size: 30px;
+  color: #ffffff !important;
+  font-family: Roboto-Regular;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.parent:hover .child, .parent:focus .child,
+.parent2:hover .child, .parent2:focus .child {
+  transform: scale(1.3);
+  transition: .3s ease;
+}
+.parent:hover .child:before, .parent:focus .child:before,
+.parent2:hover .child:before, .parent2:focus .child:before {
+  display: block;
+  transition: .3s ease;
+}
+.parent:hover p, .parent:focus p,
+.parent2:hover p, .parent2:focus p {
+  display: block;
+  transition: .3s ease;
+}
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(22,33,44,0.75);
+  transition: .3s ease;
 }
 
 .gallery .container .gal-img .img-top img#myimg7 {
   width: 525px;
   height: 290px;
   float: left;
+
 }
 
 .gallery .container .gal-img .img-top img#myimg8 {
@@ -615,7 +758,9 @@
   float: left;
   margin-top: 20px;
 }
-
+.gallery .container .gal-img .img-bottom input {
+  display: none;
+}
 .gallery .container .gal-img .img-bottom img#myimg9 {
   width: 255px !important;
   height: 180px !important;

@@ -31,6 +31,7 @@
 	<title>Berita - Kekinian</title>	
 
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/lightbox.min.css">
 	</head>
 	<body>
 		
@@ -189,8 +190,12 @@
   					</div>
   				</div>
   			</div>
-  			<span>Artikel</span>
+  			<div class="title">
+  				<span>Artikel</span>
+  				<div class="line"></div>
+  			</div>
   			<div class="article">
+			
   				<div class="articleOne">
   					<div class="imgArticle">
   						<img src="assets/images/photo-1516321497487-e288fb19713f.png" alt="">
@@ -231,24 +236,27 @@
   					</div>
   				</div>
   			</div>
-  			<span>Vidio</span>
+  			<div class="title">
+  				<span>Vidio</span>
+  				<div class="line"></div>
+  			</div>
   			<div class="video">
   				<div class="veOne">
-  						<img src="assets/images/photo-1516321497487-e288fb19713f.png" alt="">
+  						<a href="assets/images/photo-1516321497487-e288fb19713f.png" data-lightbox="myvideo"><img src="assets/images/photo-1516321497487-e288fb19713f.png" alt=""></a>
   						<div class="v1content">
   							<p>Senin 12 Agustus 2019, 14:59 WIB</p>
   							<p>VIDEO:</p>
   						</div>
   				</div>
   				<div class="vTwo">
-  						<img src="assets/images/photo-1516321497487-e288fb19713f.png" alt="">
+  						<a href="assets/images/photo-1516321497487-e288fb19713f.png" data-lightbox="myvideo"><img src="assets/images/photo-1516321497487-e288fb19713f.png" alt=""></a>
   						<div class="v1content">
   							<p>Senin 12 Agustus 2019, 14:59 WIB</p>
   							<p>VIDEO:</p>
   						</div>
   				</div>
   				<div class="vThree">
-  						<img src="assets/images/photo-1516321497487-e288fb19713f.png" alt="">
+  						<a href="assets/images/photo-1516321497487-e288fb19713f.png" data-lightbox="myvideo" data-title="Kiriman @koconut"><img src="assets/images/photo-1516321497487-e288fb19713f.png" alt=""></a>
   						<div class="v1content">
   							<p>Senin 12 Agustus 2019, 14:59 WIB</p>
   							<p>VIDEO:</p>
@@ -298,6 +306,6 @@
 			
 	</body>
 		<script src="assets/js/jquery.js" type="text/javascript" ></script>
-
+		<script src="assets/js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
 		<script src="assets/js/app.js" type="text/javascript" ></script>
 </html>

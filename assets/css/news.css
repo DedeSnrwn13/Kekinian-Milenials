@@ -341,6 +341,22 @@ a {
   margin-top: 35px;
 }
 
+.news .container .article span {
+   width: 100%;
+  font-family: Montserrat-Bold;
+  font-size: 30px;
+  color: #073C64;
+  float: left;
+}
+
+.news .container .article .line {
+   width: 76px;
+  height: 3px;
+  background: #FDD34C;
+  display: block;
+  float: left;
+}
+
 .news .container .article .articleOne,
 .news .container .article .articleTwo,
 .news .container .article .articleThree {
@@ -435,8 +451,17 @@ a {
 .news .container .video .vTwo,
 .news .container .video .vThree {
   width: 348.5px;
-  height: 263px;
+  height: 290px;
   float: left;
+  box-sizing: border-box;
+  transition: .3s ease-out;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.1);
+}
+.news .container .video .veOne:hover,
+.news .container .video .vTwo:hover,
+.news .container .video .vThree:hover {
+  margin-top: 10px;
+  transition: .3s ease;
 }
 
 .news .container .video .veOne img,
@@ -453,6 +478,10 @@ a {
 .news .container .video .vThree img:hover {
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
+  padding-bottom: 10px;
+  transition: .3s ease;
+  cursor: pointer;
+
 }
 
 .news .container .video .veOne .v1content,
@@ -471,6 +500,7 @@ a {
   color: #B7B5B5;
   position: relative;
   margin-top: 5.7px;
+  margin-left: 15px;
 }
 
 .news .container .video .veOne .v1content p:nth-child(2),
@@ -522,3 +552,4 @@ a {
   display: -webkit-box;
   display: flex;
 }
+
