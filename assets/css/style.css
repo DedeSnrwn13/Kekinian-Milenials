@@ -1679,25 +1679,25 @@ footer .container-two .footer-menu .notive li:nth-child(2) input {
   outline: none;
 }
 
-footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder::-webkit-input-placeholder {
+footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder {
   font-family: OpenSans-Regular;
   font-size: 14px;
   color: #CECECE;
 }
 
-footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder::-webkit-input-placeholder {
+footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder {
   font-family: OpenSans-Regular;
   font-size: 14px;
   color: #CECECE;
 }
 
-footer .container-two .footer-menu .notive li:nth-child(2) input:-ms-input-placeholder::-webkit-input-placeholder {
+footer .container-two .footer-menu .notive li:nth-child(2) input::-ms-input-placeholder {
   font-family: OpenSans-Regular;
   font-size: 14px;
   color: #CECECE;
 }
 
-footer .container-two .footer-menu .notive li:nth-child(2) input:-moz-placeholder::-webkit-input-placeholder {
+footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder {
   font-family: OpenSans-Regular;
   font-size: 14px;
   color: #CECECE;
@@ -1754,7 +1754,7 @@ footer .container-two .footer-menu .notive .btn-notive span a {
   background: #ffffff;
   box-sizing: border-box;
   box-shadow: 
-  color: #fff;
+  color: #FFFFFF;
   display: none;
 }
 section {
@@ -2663,7 +2663,7 @@ section {
   
   .menu-bar-xs ul li a {
    
-    color: var(--color-menu-bar);
+    color:  #0A0A0A;
     margin-left: 20px;
     text-decoration: none;
   }
@@ -3021,7 +3021,7 @@ section {
     
   }
   .low-content-berita-lainnya {
-    font-weight: 100%;
+    font-weight: 900;
     height: unset !important;
     display: none;
     
@@ -3041,7 +3041,7 @@ section {
     display: -o-inline-flex;
     display: inline-flex;
   }
-  @keyframes slider {
+/*  @keyframes slider {
     0% {
       left: 0;
 
@@ -3079,7 +3079,7 @@ section {
     width: 284PX !important;
     height: 150px !important;
     float: left;
-  }
+  }*/
   .berita-lainnya .container{
     max-width: 284px !important;
     margin: 0 auto;
@@ -3465,22 +3465,22 @@ section {
     margin-top: 11px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input:-ms-input-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-ms-input-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input:-moz-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
@@ -3689,8 +3689,7 @@ section {
     padding-top: 5px;
   }
   .leanguage-xs .img {
-    width: unset%;  
-    float: left;
+    width: unset;  
     position: relative;
   }
   .leanguage-xs .img p {
@@ -3990,7 +3989,7 @@ section {
     
   }
   .low-content-berita-lainnya {
-    font-weight: 100%;
+    font-weight: 900;
     height: unset !important;
     display: none;
     
@@ -4010,7 +4009,7 @@ section {
     display: -o-inline-flex;
     display: inline-flex;
   }
-  @keyframes slider {
+  /*@keyframes slider {
     0% {
       left: 0;
 
@@ -4048,7 +4047,7 @@ section {
     width: 284PX !important;
     height: 150px !important;
     float: left;
-  }
+  }*/
   .berita-lainnya .container{
     max-width: 284px !important;
     margin: 0 auto;
@@ -4436,22 +4435,22 @@ section {
     margin-top: 11px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input:-ms-input-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-ms-input-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
   }
-  footer .container-two .footer-menu .notive li:nth-child(2) input:-moz-placeholder::-webkit-input-placeholder {
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder {
     font-family: OpenSans-Regular;
     font-size: 12px !important;
     color: #FFFFFF;
