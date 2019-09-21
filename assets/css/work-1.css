@@ -751,4 +751,87 @@ a {
     margin-top: 0 !important;
     margin-bottom: 20px !important;
   }
+  footer {
+    width: 100vw; 
+    height: 530px;
+  }
+  footer .container-two {
+    max-width: 320px !important;
+    margin: 0 auto;
+  }
+  footer .container-two .footer-menu {
+    width: 100%;
+    height: 472.3px;
+    padding-top: 30px;
+  }
+  footer .container-two .footer-menu .menu {
+    width: 100%;
+    height: 132px;
+  }
+  footer .container-two .footer-menu .menu li:nth-child(1) {
+    font-size: 13px;
+  }
+  footer .container-two .footer-menu .menu li.span-footer a {
+    font-size: 12px !important;
+    padding-top: 6px !important;
+  }
+  footer .container-two .footer-menu .menu li.span-footer:nth-child(1) {
+    margin-top: 2px !important;
+  }
+  footer .container-two .footer-menu .contact {
+    padding-top: 25px !important;
+    height: 85px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  footer .container-two .footer-menu .contact li {
+    font-size: 13px !important;
+  }
+  footer .container-two .footer-menu .followers li {
+    font-size: 13px !important;
+  }
+  footer .container-two .footer-menu .followers li.span-footer {
+    font-size: 12px !important;
+  }
+  footer .container-two .footer-menu .notive {
+    margin-top: 20px !important;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(1) {
+    font-size: 13px !important;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(2) {
+    height: 44px !important;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(2) input {
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 105px !important;
+    float: left;
+    margin-top: 11px !important;
+    color: #FFFFFF;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-webkit-input-placeholder::-webkit-input-placeholder {
+    font-family: OpenSans-Regular;
+    font-size: 12px !important;
+    color: #FFFFFF;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(2) input::-moz-placeholder::-webkit-input-placeholder {
+    font-family: OpenSans-Regular;
+    font-size: 12px !important;
+    color: #FFFFFF;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(2) input:-ms-input-placeholder::-webkit-input-placeholder {
+    font-family: OpenSans-Regular;
+    font-size: 12px !important;
+    color: #FFFFFF;
+  }
+  footer .container-two .footer-menu .notive li:nth-child(2) input:-moz-placeholder::-webkit-input-placeholder {
+    font-family: OpenSans-Regular;
+    font-size: 12px !important;
+    color: #FFFFFF;
+  }
+  footer .container-two .footer-menu .notive .btn-notive {
+    margin-top: 20px !important;
+  }
 }
