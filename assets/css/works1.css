@@ -1,10 +1,6 @@
 /**
 ** this for first setup
 **/
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /**
 ** setup fonts
@@ -15,27 +11,27 @@
 /*open sans */
 @font-face {
   font-family: OpenSans-Bold;
-  src: url("./assets/fonts/OpenSans-Bold.ttf");
+  src: url(".././fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url("././fonts/OpenSans-Regular.ttf");
+  src: url(".././fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: opensans-light;
-  src: url("./assets/fonts/OpenSans-Light.ttf");
+  src: url(".././fonts/OpenSans-Light.ttf");
 }
 
 @font-face {
   font-family: opensans-italic;
-  src: url("./assets/fonts/OpenSans-Italic.ttf");
+  src: url(".././fonts/OpenSans-Italic.ttf");
 }
 
 @font-face {
   font-family: OpenSans-Semibold;
-  src: url("././fonts/OpenSans-SemiBold.ttf");
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
 }
 
 /**
@@ -43,28 +39,28 @@
 /*montserrat */
 @font-face {
   font-family: Montserrat-Bold;
-  src: url("./assets/fonts/Montserrat-Bold.ttf");
+  src: url(".././fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url("./assets/fonts/Montserrat-Regular.ttf");
+  src: url(".././fonts/Montserrat-Regular.ttf");
 }
 
 /*roboto*/
 @font-face {
   font-family: Roboto-Medium;
-  src: url("./assets/fonts/Roboto-Medium_0.ttf");
+  src: url(".././fonts/Roboto-Medium_0.ttf");
 }
 
 @font-face {
   font-family: Roboto-Thin;
-  src: url("./assets/fonts/Roboto-Thin.ttf");
+  src: url(".././fonts/Roboto-Thin.ttf");
 }
 
 @font-face {
   font-family: Roboto-Bold;
-  src: url("./assets/fonts/Roboto-Bold.ttf");
+  src: url(".././fonts/Roboto-Bold.ttf");
 }
 
 /**
