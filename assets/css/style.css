@@ -1,4 +1,4 @@
-/**
+*
 ** this for first setup
 **/
 * {
@@ -381,22 +381,28 @@ header .navbar .container a .logo #logo-img .logo #logo-img img {
   height: 25px !important;
 }
 
-header .navbar .container a .logo #logo-text {
-  float: left;
-  margin-left: 5px !important;
-  cursor: pointer;
-  margin-top: 3px !important;
-}
+ header .navbar .container a .logo #logo-text {
+    float: left;
+    margin-left: 5px;
+    width: unset;
+    height: unset;
+    cursor: pointer;
+    margin-top: 3px;
+  }
 
-header .navbar .container a .logo #logo-text .logo #logo-text img {
-  width: 87px;
-  height: 22px;
-  float: left;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-}
+  header .navbar .container a .logo #logo-text  span {
+    font-family: Montserrat-Regular;
+    text-transform: uppercase;
+    color: #073C64;
+    float: left;
+    width: unset;
+    height: unset;
+    font-size: 18px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+  }
 
 header .navbar .container .menu-bar {
   width: 500px;
@@ -2641,7 +2647,7 @@ section {
 }
 
 
-/*@media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   header {
     width: 100vw !important;
     height: 62px !important;
@@ -3609,7 +3615,7 @@ section {
   footer .container-two .footer-menu .notive .btn-notive {
     margin-top: 20px !important;
   }
-}*/
+}
 
 /*
 @media screen and (max-width: 768px) {
@@ -4635,4 +4641,4 @@ section {
   .btn-register-xs {
     display: none;
   }
-} */
+} 

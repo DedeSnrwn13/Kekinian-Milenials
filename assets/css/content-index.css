@@ -787,7 +787,67 @@
   margin-left: 15px;
   float: left;
 }
+.content-img-bottom {
+  width: 255px;
+  height: 180px;
+  margin-left: 0;
+  float: left;
+  overflow: hidden;
+}
 
+.content-img-botttom img{
+  width: 100%;
+  margin-left: 0 !important;
+}
+
+.img-bottom img{
+  margin-left: 0 !important;
+}
+
+.content-img-bottom:nth-child(2),
+.content-img-bottom:nth-child(3),
+.content-img-bottom:nth-child(4) {
+    margin-left: 14px;  
+}
+.content-img-bottom .shadow:nth-child(3),
+.content-img-bottom .shadow:nth-child(4) {
+     margin-left: 14px;  
+}
+.content-img-bottom .shadow,
+.content-img-bottom .shadow {
+  width: 255px;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 3;
+  position: absolute;
+  transition: .3s ease;
+}
+
+.content-img-bottom  .shadow p,
+.content-img-bottom .shadow p {
+  width: unset;
+  height: unset;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  position: absolute;
+  padding-top: unset;
+  padding-left: unset;
+  opacity: 0;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;  
+  padding-left: 80px; 
+  transition: .3s;
+}
+
+.content-img-bottom .shadow p:hover,
+.content-img-bottom .shadow .shadow p:hover {
+  opacity: 1;
+  transition: .3s;
+  cursor: pointer;
+}
 .gallery .container a.button-gallery {
   position: relative;
   display: -webkit-flex;

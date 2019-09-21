@@ -100,6 +100,32 @@ body {
 a {
   display: inline-block;
 }
+ 
+ header .navbar .container a .logo #logo-text {
+    float: left;
+    margin-left: 5px;
+    width: unset;
+    height: unset;
+    cursor: pointer;
+    margin-top: 3px;
+  }
+
+  header .navbar .container a .logo #logo-text  span {
+    font-family: Montserrat-Regular;
+    text-transform: uppercase;
+    color: #073C64;
+    float: left;
+    width: unset;
+    height: unset;
+    font-size: 18px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+  }
+  a#logos {
+    outline: none;
+  }
 
 .news {
   width: 100vw;
