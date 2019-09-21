@@ -1752,9 +1752,8 @@ footer .container-two .footer-menu .notive .btn-notive span a {
   top: 0;
   z-index: 1;
   background: #ffffff;
-  box-sizing: border-box;
-  box-shadow: 
-  color: #FFFFFF;
+  box-sizing: border-box; 
+  color: #ffffff;
   display: none;
 }
 section {
@@ -3631,7 +3630,7 @@ section {
   
   .menu-bar-xs ul li a {
    
-    color: var(--color-menu-bar);
+    color: #0A0A0A;
     margin-left: 20px;
     text-decoration: none;
   }
