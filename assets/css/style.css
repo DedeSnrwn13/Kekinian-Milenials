@@ -58,6 +58,11 @@
 }
 
 @font-face {
+  font-family: Roboto-Regular;
+  src: url(".././fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
   font-family: Roboto-Thin;
   src: url(".././fonts/Roboto-Thin.ttf");
 }
@@ -1104,7 +1109,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span {
-  width: 287px;
+  width: 300px;
   height: 54px;
   font-family: Montserrat-Regular;
   font-size: 18px;
@@ -1114,6 +1119,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span a {
   text-decoration: none;
   color: #2A2A2B;
+  width: 300px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya {
@@ -1137,8 +1143,13 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-size: 12px;
   color: #073C64;
   text-decoration: none;
+  transition: .2s ease;
 }
 
+.berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya span#text-btn-readMore-berita-lainnya a:hover {
+  transition: .2s ease;
+  border-bottom: 1px solid #073C64;
+}
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(2),
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(3) {
   margin-left: 15px;
@@ -1265,10 +1276,10 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   background-repeat: no-repeat;
 }
 .parent .bg-one{
-  background-image: url("./../images/a-l-ya631mqQ7Ng-unsplash.png");
+  background-image: url("./../images/a-l-ya631mqQ7Ng-unsplash_compress2.jpg");
 }
 .parent2 .bg-two{
-  background-image: url("./../images/elevate-nYgy58eb9aw-unsplash.png");
+  background-image: url("./../images/elevate-nYgy58eb9aw-unsplash_compress7.jpg");
 }
 .parent p,
 .parent2 p {
@@ -1399,6 +1410,8 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   z-index: 3;
   position: absolute;
   transition: .3s ease;
+  text-align: center;
+  justify-content: center;
 }
 
 .content-img-bottom  .shadow p,
@@ -1409,14 +1422,11 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 1px;
-  position: absolute;
-  padding-top: unset;
-  padding-left: unset;
   opacity: 0;
   justify-content: center;
   text-align: center;
   padding-top: 80px;  
-  padding-left: 80px; 
+  display: block;
   transition: .3s;
 }
 
@@ -1538,6 +1548,48 @@ footer .container-two {
   margin: 0 auto;
 }
 
+footer .container-two .copyright {
+  width: 300px;
+  height: 140px;
+  float: left;
+}
+
+footer .container-two .copyright .logo-footer {
+  width: 100%;
+  height: 26px;
+}
+footer .container-two .copyright .logo-footer img {
+  float: left;
+}
+
+footer .container-two .copyright .logo-footer span {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: 5px;
+  padding-top: 3px;
+  float: left;
+}
+
+footer .container-two .copyright .c-bottom p {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  color: #DEDEDE;
+  padding-top: 10px;
+  width: unset;
+  height: 100px;
+}
+
+footer .container-two .copyright .c-bottom span {
+  font-family: OpenSans-Semibold;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-top: 40px;
+  width: unset;
+  height: unset;
+}
+
 footer .container-two .footer-menu {
   width: 1066px;
   height: 135px;
@@ -1550,6 +1602,7 @@ footer .container-two .footer-menu .menu {
   width: 107px;
   height: 111px;
   float: left !important;
+  padding-left: 30px;
 }
 
 footer .container-two .footer-menu .menu li {
@@ -1586,8 +1639,7 @@ footer .container-two .footer-menu .contact {
   width: 107px;
   height: 111px;
   float: left;
-  padding-left: 90px;
-  padding-right: 50px;
+  padding-left: 30px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -1613,10 +1665,9 @@ footer .container-two .footer-menu .contact li:nth-child(3) {
 
 footer .container-two .footer-menu .followers {
   width: 70px;
-  height: 90px;
+  height: 30px;
   float: left;
   padding-left: 0;
-  padding-right: 315px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -1644,7 +1695,7 @@ footer .container-two .footer-menu .followers li:nth-child(4) {
 footer .container-two .footer-menu .notive {
   width: 298px;
   height: 120px;
-  float: left;
+  float: right;
 }
 
 footer .container-two .footer-menu .notive li {
@@ -1670,11 +1721,11 @@ footer .container-two .footer-menu .notive li:nth-child(2) input {
   background-color: transparent;
   border: 2px solid #FFFFFF;
   padding-left: 11px;
-  padding-right: 151px;
+  padding-right: 115px;
   padding-top: 12.5px;
   padding-bottom: 12.5px;
   font-family: OpenSans-Regular;
-  font-size: 14px;
+  font-size: 12px;
   color: #CECECE;
   outline: none;
 }

@@ -55,3 +55,9 @@ $('.popup-img').click(function(){
 $('.popup-backdrop').click(function(){
 	$(this).removeClass('active');
 });
+
+// click
+
+$(".btn").click(function(e){
+	$(".demo").toggleClass('active');
+})

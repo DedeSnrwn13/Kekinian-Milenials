@@ -776,6 +776,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   width: 100%;
   height: unset;
   float: left;
+  margin-top: 15px;
 }
 
 .news .container .news-now .content-right .text-content .title span {
@@ -995,6 +996,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span a {
   text-decoration: none;
   color: #2A2A2B;
+  cursor: default;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya {
@@ -1017,7 +1019,14 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya span#text-btn-readMore-berita-lainnya a {
   font-size: 12px;
   color: #073C64;
+  transition: .2s ease;
   text-decoration: none;
+  
+}
+
+.berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya span#text-btn-readMore-berita-lainnya a:hover {
+  transition: .2s ease;
+  border-bottom: 1px solid #073C64;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(2),
@@ -1106,6 +1115,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .article .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span a {
   text-decoration: none;
   color: #2A2A2B;
+  cursor: default;
 }
 
 .article .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya {
@@ -1129,6 +1139,11 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-size: 12px;
   color: #073C64;
   text-decoration: none;
+}
+
+.article .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya span#text-btn-readMore-berita-lainnya a:hover {
+   transition: .2s ease;
+  border-bottom: 1px solid #073C64;
 }
 
 .article .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(2),
@@ -1204,6 +1219,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   color: #B7B5B5;
   font-family: OpenSans-Regular;
   font-size: 14px;
+  margin-top: 5px;
 }
 
 .video .container .content-video-lainnya .low-content-video-lainnya .text-video-low span {
@@ -1212,11 +1228,19 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-family: Montserrat-Regular;
   font-size: 18px;
   text-align: left;
+
 }
 
 .video .container .content-video-lainnya .low-content-video-lainnya .text-video-low span a {
   text-decoration: none;
   color: #2A2A2B;
+   transition: .2s ease;
+   margin-top: 15px;
+}
+
+.video .container .content-video-lainnya .low-content-video-lainnya .text-video-low span a:hover {
+  opacity: .7;
+  transition: .2s ease;
 }
 
 .video .container .content-video-lainnya .low-content-video-lainnya:nth-child(2),
@@ -1258,8 +1282,13 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
+  transition: .3s ease;
 }
 
+.pagination p:nth-child(2):hover {
+  color: #000000;
+  transition: .3s ease;
+}
 
 footer {
   width: 100vw;
