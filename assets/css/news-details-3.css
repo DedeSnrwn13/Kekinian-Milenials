@@ -664,231 +664,139 @@ header .navbar .container .logOrRegist .btn-login a {
 
 header .navbar .container .logOrRegist .btn-login:hover {
   opacity: .9;
+  -webkit-transition: .75s;
+  transition: .75s;
+}
+
+header .navbar .container .logOrRegist .btn-login:hover a:hover {
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-header .navbar .container .logOrRegist .btn-login:hover a:hover {
-  -webkit-transition: .3s;
-  transition: .3s ease;
-}
-.inspiration {
+
+
+.newsOne {
   width: 100vw;
-  height: 1000px;
+  height: 1772px;
   background: #FFFFFF;
+  float: left;
 }
 
-.inspiration .container {
+.newsOne .container {
   max-width: 1066px;
   margin: 0 auto;
 }
 
-.inspiration .container .inspirate {
+.newsOne .container .news {
   width: 100%;
-  height: 800px;
+/*  */
   float: left;
-  margin-top: 30px;
-}
-
-.inspiration .container .inspirate span {
-  font-family: Montserrat-Bold;
-  font-size: 30px;
-  color: #073C64;
-}
-
-.inspiration .container .inspirate .line {
-  width: 80px;
-  height: 3px;
-  background: #FDD34C;
-}
-
-.inspiration .container .inspirate .content-left {
-  width: 740px;
-  height: 720px;
-  float: left;
-  background: #FFFFFF;
-  margin-top: 15px;
-}
-
-.inspiration .container .inspirate .content-left .inspirate1,
-.inspiration .container .inspirate .content-left .inspirate2,
-.inspiration .container .inspirate .content-left .inspirate3,
-.inspiration .container .inspirate .content-left .inspirate4 {
-  width: 100%;
-  height: 150px;
-  float: left;
-  border: 2px solid rgba(210,208,208,0.5);
-}
-
-.inspiration .container .inspirate .content-left .inspirate2,
-.inspiration .container .inspirate .content-left .inspirate3,
-.inspiration .container .inspirate .content-left .inspirate4 {
-  margin-top: 42px;
-}
-
-.inspirate .content-left .inspirate1 .profil,
-.inspirate .content-left .inspirate2 .profil,
-.inspirate .content-left .inspirate3 .profil,
-.inspirate .content-left .inspirate4 .profil {
-  width: 100%;
-  height: 57px;
-  float: left;
-  margin-top: 20px;
-}
-
-.inspirate .content-left .inspirate1 .profil img,
-.inspirate .content-left .inspirate2 .profil img,
-.inspirate .content-left .inspirate3 .profil img,
-.inspirate .content-left .inspirate4 .profil img {
-  width: 57px;
-  height: 57px;
-  float: left;
-  margin-left: 15px;
-}
-
-.inspirate .content-left .inspirate1 .profil span,
-.inspirate .content-left .inspirate2 .profil span,
-.inspirate .content-left .inspirate3 .profil span,
-.inspirate .content-left .inspirate4 .profil span {
-  font-family: Montserrat-Regular;
-  font-size: 18px;
-  float: left;
-  color: #1E1E1E;
-  margin-left: 23px;
-  margin-top: 10px;
-  width: 600px;
-  height: unset;
-}
-
-.inspirate .content-left .inspirate1 .col-bottom,
-.inspirate .content-left .inspirate2 .col-bottom,
-.inspirate .content-left .inspirate3 .col-bottom,
-.inspirate .content-left .inspirate4 .col-bottom {
-  float: left;
-  width: 500px;
-  height: 16px;
-  margin-left: 73px;
-  margin-top: 30px;`
-}
-
-.inspirate .content-left .inspirate1 .col-bottom .comment,
-.inspirate .content-left .inspirate1 .col-bottom .react,
-.inspirate .content-left .inspirate1 .col-bottom .views,
-.inspirate .content-left .inspirate2 .col-bottom .comment,
-.inspirate .content-left .inspirate2 .col-bottom .react,
-.inspirate .content-left .inspirate2 .col-bottom .views,
-.inspirate .content-left .inspirate3 .col-bottom .comment,
-.inspirate .content-left .inspirate3 .col-bottom .react,
-.inspirate .content-left .inspirate3 .col-bottom .views,
-.inspirate .content-left .inspirate4 .col-bottom .comment,
-.inspirate .content-left .inspirate4 .col-bottom .react,
-.inspirate .content-left .inspirate4 .col-bottom .views  {
-  /*width: 95px;*/
-  height: 16px;
-  float: left;
-}
-
-.inspirate .content-left .inspirate1 .col-bottom img,
-.inspirate .content-left .inspirate2 .col-bottom img,
-.inspirate .content-left .inspirate3 .col-bottom img,
-.inspirate .content-left .inspirate4 .col-bottom img  {
-  width: 16px;
-  height: 16px;
-  float: left;
-}
-
-.inspirate .content-left .inspirate1 .col-bottom span, 
-.inspirate .content-left .inspirate2 .col-bottom span,
-.inspirate .content-left .inspirate3 .col-bottom span, 
-.inspirate .content-left .inspirate4 .col-bottom span {
-  font-family: Montserrat-Regular;
-  font-size: 12px;
-  color: #077777;
-  float: left;
-}
-
-
-.inspiration .container .inspirate .content-right {
-  width: 260px;
-  height: 400px;
-  float: right;
-  margin-top: 15px;
-}
-
-.inspiration .container .inspirate .content-right a {
-  text-decoration: none;
-}
-
-.inspiration .container .inspirate .content-right a .btn {
-  width: 260px;
-  height: 42px;
-  float: left;
-  background: #073C64;
-}
-
-.inspiration .container .inspirate .content-right a .btn p {
-  font-family: Montserrat-Regular;
-  font-size: 13px;
-  color: #FFFFFF;
-  padding-left: 66.5px;
-  padding-right: 66.5px;
-  padding-top: 13px;
-  padding-bottom: 13px;
-}
-
-.inspiration .container .inspirate .content-right .dll {
-  width: 260px;
-  height: 115px;
-  float: left;
-  background: #FFFFFF;
   margin-top: 40px;
-  box-sizing: border-box;
-  border: 3px solid rgba(210,208,208,0.5);
 }
 
-.inspiration .container .inspirate .content-right .dll .post,
-.inspiration .container .inspirate .content-right .dll .foll {
+.newsOne .container .opt {
+  display: none;
+}
+
+.newsOne .container .news span {
   width: 100%;
-  height: 23px;
+  height: 33px;
+  font-family: Montserrat-Regular;
+  font-size: 27px;
   float: left;
-  padding-top: 20px;
-  
+  color: #070707;
 }
 
-.lines {
+.newsOne .container .news .img {
   width: 100%;
-  height: 1px;
-  background: #EBE8E8;
+  /*height: 1728px;*/
   float: left;
   margin-top: 10px;
 }
 
-.inspiration .container .inspirate .content-right .dll .post img,
-.inspiration .container .inspirate .content-right .dll .foll img {
-  width: 25px;
-  height: 23px;
-  float: left;
-  padding-left: 15px;
+.newsOne .container .news .img img {
+  width: 100%;
+/*  */
+  -o-object-fit: center;
+  object-fit: center;
 }
 
-.inspiration .container .inspirate .content-right .dll .post p,
-.inspiration .container .inspirate .content-right .dll .foll p {
-  font-family: Montserrat-Regular;
-  font-size: 12px;
+.newsOne .container .news .img .desc {
+  width: 100%;
+ /* height: 1151px;*/
   float: left;
-  padding-top: 3px;
-  margin-left: 7px;
+  margin-top: 10px;
 }
 
-.inspiration .container .inspirate .content-right .dll .post p a,
-.inspiration .container .inspirate .content-right .dll .foll p a {
-  text-decoration: none;
+.newsOne .container .news .img .desc p {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
   color: #000000;
 }
 
-.inspiration .container .inspirate .content-right .dll .foll img {
-  
+.newsOne .container .news .img .desc .f-one {
+  width: 100%;
+  height: 166px;
+  float: left;
+  margin-top: 10px;
 }
+
+.newsOne .container .news .img .desc .f-one p.p1:first-letter {
+  margin-left: 20px;
+}
+
+.newsOne .container .news .img .desc .f-two {
+  width: 100%;
+  height: 115px;
+  float: left;
+  margin-top: 10px;
+}
+
+.newsOne .container .news .img .desc .f-three {
+  width: 100%;
+  height: 392px;
+  float: left;
+}
+
+
+.newsOne .container .share {
+  width: 100%;
+  height: 56px;
+  float: left;
+}
+
+.newsOne .container .share span {
+  width: 100%;
+  height: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 17px;
+  float: left;
+  color: #000000;
+}
+
+.newsOne .container .share .img-share {
+  width: 92px;
+  /*height: 26px;*/
+  float: left;
+  margin-top: 12px;
+}
+
+.newsOne .container .share .img-share img:nth-child(1),
+.newsOne .container .share .img-share img:nth-child(2),
+.newsOne .container .share .img-share img:nth-child(3) {
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+
+.newsOne .container .share .img-share img:nth-child(2),
+.newsOne .container .share .img-share img:nth-child(3) {
+  margin-left: 10px;
+}
+
+
+
+
 
 footer {
   width: 100vw;
