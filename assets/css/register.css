@@ -278,6 +278,26 @@ a {
   padding-left: 8px;
 }
 
+.box .content-left .left .form .pass button {
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 10px;
+  color:  #073C64;
+  border: none;
+  background: transparent;
+  outline: none;
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  float: right;
+  margin-top: -24px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
 .box .content-left .left .form .email input::-webkit-input-placeholder::-webkit-input-placeholder,
 .box .content-left .left .form .pass input::-webkit-input-placeholder::-webkit-input-placeholder {
   font-family: Montserrat-Regular;
@@ -432,9 +452,9 @@ a {
 }
 
 .box .content-right {
-  width: 600px;
+  width: 790px;
   height: 100vh;
-  float: left;
+  float: right;
 }
 
 .box .content-right img {
@@ -444,7 +464,7 @@ a {
 }
 
 
-@media screen and (max-width: 1440px) {
+/*@media screen and (max-width: 1440px) {
   .content-left {
     width: 600px !important;
     height: 100vh;
@@ -573,3 +593,4 @@ a {
       margin-left: 15px !important;
     }
 }
+*/

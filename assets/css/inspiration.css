@@ -753,11 +753,27 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-family: Montserrat-Regular;
   font-size: 18px;
   float: left;
-  color: #1E1E1E;
   margin-left: 23px;
   margin-top: 10px;
   width: 600px;
   height: unset;
+}
+
+.inspirate .content-left .inspirate1 .profil span a,
+.inspirate .content-left .inspirate2 .profil span a,
+.inspirate .content-left .inspirate3 .profil span a,
+.inspirate .content-left .inspirate4 .profil span a {
+  text-decoration: none;
+  color: #1E1E1E;
+  transition: .3s ease;
+}
+
+.inspirate .content-left .inspirate1 .profil span a:hover,
+.inspirate .content-left .inspirate2 .profil span a:hover,
+.inspirate .content-left .inspirate3 .profil span a:hover,
+.inspirate .content-left .inspirate4 .profil span a:hover {
+  opacity: .7;
+  transition: .3s ease;
 }
 
 .inspirate .content-left .inspirate1 .col-bottom,

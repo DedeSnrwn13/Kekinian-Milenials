@@ -677,7 +677,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .newsOne {
   width: 100vw;
-  height: 1772px;
+  height: 2200px;
   background: #FFFFFF;
   float: left;
 }
@@ -728,6 +728,21 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   margin-top: 10px;
 }
 
+.newsOne .container .news .img .desc span {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.newsOne .container .news .img .desc img {
+  width: 628px;
+  height: 408px;
+  float: left;
+  padding-left: 219px;
+  padding-right: 219px;
+  margin-top: 10px;
+
+}
+
 .newsOne .container .news .img .desc p {
   font-family: OpenSans-Regular;
   font-size: 17px;
@@ -747,15 +762,14 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .newsOne .container .news .img .desc .f-two {
   width: 100%;
-  height: 115px;
   float: left;
   margin-top: 10px;
 }
 
 .newsOne .container .news .img .desc .f-three {
   width: 100%;
-  height: 392px;
   float: left;
+  margin-top: 10px;
 }
 
 

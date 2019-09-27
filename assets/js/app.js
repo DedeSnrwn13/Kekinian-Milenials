@@ -61,3 +61,32 @@ $('.popup-backdrop').click(function(){
 $(".btn").click(function(e){
 	$(".demo").toggleClass('active');
 })
+
+// btn
+
+
+
+// video
+
+$('#vid-1').click(function(e){
+  $('.popup-area').addClass('activex');
+  var data = $(this).data('url');
+  $('.vids-1').attr('src',data);
+});
+
+$('.close-vid').click(function(e){
+  $('.popup-area').removeClass('activex');
+  $('.vids-1').attr('src',"");
+});
+
+$('.popup-vid').click(function(e){
+  event.stopPropagation();
+});
+
+
+$('#vid-2').click(function(e){
+  $('.popup-area').addClass('activex');
+  var data = $(this).data('url');
+  $('.vids-1').attr('src',data);
+});
+

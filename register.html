@@ -38,7 +38,8 @@
 						</div>
 						<div class="pass">
 							<span>Password</span>
-							<input type="text" placeholder="Masukkan password">
+							<input class="bttn" type="password" placeholder="Masukkan password">
+							<button class="btnViews">Tampilkan</button></input>
 						</div>
 						<div class="ttl">
 							<select name="" id="tgl">
@@ -136,4 +137,15 @@
 		</div>
 
 </body>
+	<script src="assets/js/jquery.js" type="text/javascript" ></script>
+	<script>
+		$('.btnViews').click(function () {
+			if($('.bttn').attr('type','password')) {
+				$('.bttn').attr('type','text')
+			}  
+			else{
+				$('.bttn').attr('type','password')
+			}
+		})
+	</script>
 </html>
