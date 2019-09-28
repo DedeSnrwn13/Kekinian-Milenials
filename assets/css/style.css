@@ -1474,7 +1474,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .video {
   width: 100vw;
-  height: 700px;
+  height: 650px;
   float: left;
 }
 
@@ -1482,6 +1482,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   max-width: 78vw;
   position: relative;
   margin: 0 auto;
+  height: unset;
 }
 
 .video .container .tvideo {
@@ -1510,7 +1511,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .video .container .vid {
   width: 100%;
-  height: 500px;
+  height: 480px;
   float: left;
   margin-top: 15px;
   cursor: default;
@@ -1533,10 +1534,12 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   height: unset;
   object-fit: cover;
   object-position: center;
+  position: relative;
 }
 #thumb {
   width: 100%;
-  height: 500px;
+  height: 490px;
+  position: relative;
 }
 
 .vid .video-click {
@@ -1629,6 +1632,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .close-vid img {
   width: 90%;
   margin: 0 auto;
+
 }
 
 .activex {
@@ -1656,10 +1660,12 @@ img.lazy {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.mage-food {
+.image-millens {
   margin: 0;
   border: 0;
 }
+
+
 footer {
   width: 100vw;
   height: 213px;
@@ -4042,7 +4048,7 @@ section {
     padding: 0 !important;
   }
   .video {
-    height: 43  0px !important;
+    height: 430px !important;
   }
   .video .container {
     max-width: 90%;

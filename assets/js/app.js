@@ -90,3 +90,22 @@ $('#vid-2').click(function(e){
   $('.vids-1').attr('src',data);
 });
 
+// $(".img-bottom").slick({
+//     infinite: true,
+//     slidesToShow: 2,
+//     slidesToScroll: 2,
+//     autoPlay: true,
+//     speed: 300,
+//     prevArrow: $('.prev2'), 
+//     nextArrow: $('.next2')  
+// });
+
+
+// $(".img-top").slick({
+        
+//    slidesToShow: 1,
+//    slidesToScroll: 1,
+//    infinite: true,
+//    prevArrow: $('.prev1'), 
+//    nextArrow: $('.next1')
+// });

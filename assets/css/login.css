@@ -74,16 +74,7 @@
 ** this for setup variable
 **/
 /* change option color */
-:root {
-  --primary: #5CAAF4;
-  --color-text-berita: #070707;
-  --line-and-side: #FDD34C;
-  --text-banner: #FFFFFF;
-  --buton: #073C64;
-  --footer: #073C64;
-  --bg-detail-berita-and-forum: #8E8E8E (9%);
-  --color-menu-bar: #0A0A0A;
-}
+
 
 html, body {
   padding: 0;
@@ -122,41 +113,61 @@ a {
   height: 100vh;
   float: left;
   background: #FFFFFF;
+  padding-top: 30px;
 }
 
-.box .content-left .box-content-left {
+.box-content-left {
   width: 400px;
   height: 100vh;
   float: left;
   padding-left: 130px;
-  margin-top: 0px !important;
+  margin-top: 0px;
 }
 
-.box .content-left .box-content-left .logos {
-  width: 280px;
-  height: 114px;
+.title {
+  width: 400px;
+  height: 99px;
+  float: left;
 }
 
-.box .content-left .box-content-left .logos span {
+.title .logo {
+  width: 100%;
+  height: 31.59px;
+  float: left;
+}
+
+.title .logo img {
+  width: 37.7px;
+  height: 30.49px;
+  margin-left: 10px;
+}
+
+.title .logo span {
+  float: left;
+  font-family: Montserrat-Regular;
+  font-size: 25px;
+  color: #073C64;
+  text-transform: uppercase;
+}
+
+.title .welcome {
+  width: 400px;
+  height: 62px;
+  float: left;
+}
+
+.title .welcome span {
   font-family: Montserrat-Regular;
   font-size: 30px;
-  text-align: left;
   color: #463939;
 }
 
-.box .content-left .box-content-left .logos span:nth-child(2) {
-  margin-top: 15px;
-}
-
-.box .content-left .box-content-left .logos p {
-  width: 275px;
-  height: 20px;
-  color: #BCBCBC;
+.title .welcome p {
   font-family: OpenSans-Regular;
   font-size: 15px;
+  color: #BCBCBC;
   margin-top: 5px;
 }
-
 .box .content-left .box-content-left .email {
   width: 380px;
   height: 62.60px;
@@ -640,10 +651,14 @@ a {
   .content-left .box-content-left .log-fb {
     width: 300px !important;
   }
-  .content-right {
+  .content-right{
     display: block;
     width: 590px !important;
-    float: right;
+    height: unset !important;
+    float: right !important;
+  }
+  .content-right img {
+    height: 614px !important;
   }
 }
 
@@ -652,12 +667,12 @@ a {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 30px !important;
-    height: 100vh !important;
+    height: 550px !important;
     padding-top: 0 !important;
   }
   .box-content-left {
     width: 370px !important;
-    height: 580px !important;
+    height: 550px !important;
     padding-top: 40px !important;
     padding-left: 0 !important;
   }
@@ -679,7 +694,7 @@ a {
   }
   #content-right {
     width: 348px !important;
-    height: 100vh;
+    height: 550px !important;
     float: left;
   }
 }

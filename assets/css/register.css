@@ -74,16 +74,6 @@
 ** this for setup variable
 **/
 /* change option color */
-:root {
-  --primary: #5CAAF4;
-  --color-text-berita: #070707;
-  --line-and-side: #FDD34C;
-  --text-banner: #FFFFFF;
-  --buton: #073C64;
-  --footer: #073C64;
-  --bg-detail-berita-and-forum: #8E8E8E (9%);
-  --color-menu-bar: #0A0A0A;
-}
 
 html, body {
   padding: 0;
@@ -140,20 +130,22 @@ a {
 }
 
 .box .content-left .left .title .logo {
-  width: 168px;
+  width: 100%;
   height: 31.59px;
+  float: left;
 }
 
 .box .content-left .left .title .logo img {
   width: 37.7px;
   height: 30.49px;
+  margin-left: 10px;
 }
 
 .box .content-left .left .title .logo span {
   float: left;
   font-family: Montserrat-Regular;
   font-size: 25px;
-  color: #FDD34C;
+  color: #073C64;
   text-transform: uppercase;
 }
 
@@ -464,45 +456,48 @@ a {
 }
 
 
-/*@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .content-left {
-    width: 600px !important;
+    width: 600px;
     height: 100vh;
   }
   .left {
-    padding-top: 20px !important;
-    margin-left: 100px !important;
+    padding-top: 20px;
+    margin-left: 100px;
   }
   .left .form input {
     height: 45px;
   }
   .left .form .confirm {
-    width: 100% !important;
+    width: 100%;
   }
   .content-right {
-    width: 840px !important;
+    width: 840px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 1020px) {
   .box {
-    height: 680px !important;
+    height: 680px;
   }
   .content-left {
     width: 500px !important;
-    height: 500px !important;
+    height: 600px !important;
+    float: left !important;
   }
   .left {
     width: 420px !important;
     margin-left: 50px !important;
-    margin-right: 20px !important;
+    margin-right: 20px;
     padding-top: 40px !important;
-     height: 530px !important;
+     height: unset !important;
   }
   .form {
     height: 500px !important;
   }
   .content-right {
+    height: 100% !important;
     width: 520px !important;
   }
 }
@@ -581,6 +576,9 @@ a {
       padding-left: 25px;
       margin-left: 45px !important;
     }
+    button.btnViews {
+      margin-right: 20px;
+    }
 }
 
 
@@ -593,4 +591,3 @@ a {
       margin-left: 15px !important;
     }
 }
-*/

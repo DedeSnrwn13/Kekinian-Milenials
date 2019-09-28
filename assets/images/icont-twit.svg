@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_157" data-name="Rectangle 157" width="31" height="31" fill="#d2d0d0"/>
+    </clipPath>
+  </defs>
+  <g id="icont-twit" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="twitter" transform="translate(0 0)">
+      <path id="Path_145" data-name="Path 145" d="M15.5,0A15.5,15.5,0,1,1,0,15.5,15.5,15.5,0,0,1,15.5,0Z" fill="#fdd34c"/>
+      <g id="Group_132" data-name="Group 132" transform="translate(6.936 9.402)">
+        <path id="Path_140" data-name="Path 140" d="M24.995,11.139a7.392,7.392,0,0,1-2.128.583A3.715,3.715,0,0,0,24.5,9.673a7.417,7.417,0,0,1-2.353.9,3.708,3.708,0,0,0-6.314,3.38A10.517,10.517,0,0,1,8.193,10.08a3.709,3.709,0,0,0,1.146,4.947,3.679,3.679,0,0,1-1.678-.464c0,.016,0,.031,0,.047a3.707,3.707,0,0,0,2.972,3.633,3.719,3.719,0,0,1-1.673.064,3.709,3.709,0,0,0,3.461,2.573,7.479,7.479,0,0,1-5.485,1.534,10.536,10.536,0,0,0,16.22-8.877c0-.161,0-.321-.011-.479a7.513,7.513,0,0,0,1.849-1.918Z" transform="translate(-6.936 -9.402)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

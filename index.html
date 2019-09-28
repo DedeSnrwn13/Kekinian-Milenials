@@ -224,7 +224,7 @@
   					<img src="assets/images/side-top-right.svg" alt="">
   				</div>
   				<div class="img-hoax">
-  					<img id="myimg2" src="assets/images/img-about.png" alt="">
+  					<img id="myimg2" data-src="assets/images/img-about.png" class="lazy image-millens" alt="">
   				</div>
   				<div class="side-bottom-left">
   					<img src="assets/images/side-bottom-left.svg" alt="">
@@ -237,7 +237,7 @@
   			<div class="berita-left">
   				<span>Berita Utama</span>
   				<div class="line"></div>
-  				<img id="myimg3" data-src="assets/images/priscilla-du-preez-XkKCui44iM0-unsplash_compress73.jpg" class="lazy mage-food" alt="">
+  				<img id="myimg3" data-src="assets/images/priscilla-du-preez-XkKCui44iM0-unsplash_compress73.jpg" class="lazy 1mage-millens" alt="">
   			</div>
   			<div class="berita-right">
   				<div  class="time-berita-utama">
@@ -267,7 +267,7 @@
   		<div class="container">
   			<div class="content-berita-lainnya">
   				<div class="low-content-berita-lainnya">
-  					<img data-src="assets/images/bady-qb-67GC0YaeGQc-unsplash.png" class="lazy mage-food" alt="">
+  					<img data-src="assets/images/bady-qb-67GC0YaeGQc-unsplash.png" class="lazy image-millens" alt="">
   					<div class="text-berita-low">
   						<p>Senin 12 Agustus 2019, 14:59 WIB</p>
   						<span><a href="work-1.html">3 Cara Cerdas Atur Duit untuk Generasi Milenial</a></span>
@@ -277,7 +277,7 @@
   						</div>
   				</div>
   				<div class="low-content-berita-lainnya">
-  					<img id="myimg5" data-src="assets/images/niko-lienata-7tXqXcVcLDM-unsplash.png" class="lazy mage-food" alt="">
+  					<img id="myimg5" data-src="assets/images/niko-lienata-7tXqXcVcLDM-unsplash.png" class="lazy image-millens" alt="">
   					<div class="text-berita-low">
   						<p>Senin 12 Agustus 2019, 14:59 WIB</p>
   						<span><a href="news-details-1.html">Kaum Muda Anggap Kualitas Demokrasi di Indonesia Buruk</a></span>
@@ -287,7 +287,7 @@
   						</div>
   				</div>
   				<div class="low-content-berita-lainnya">
-  					<img id="myimg6" data-src="assets/images/chris-gilbert-NxZzwsH0PHg-unsplash.png" class="lazy mage-food" alt="">
+  					<img id="myimg6" data-src="assets/images/chris-gilbert-NxZzwsH0PHg-unsplash.png" class="lazy image-millens" alt="">
   					<div class="text-berita-low">
   						<p>Senin 12 Agustus 2019, 14:59 WIB</p>
   						<span><a href="news-details-2.html">Ini Kebiasaan Generasi Milenial Saat Malam Tahun Baru Tiba</a></span>
@@ -333,25 +333,25 @@
         
   				<div class="img-bottom">
             <div class="content-img-bottom">
-              <img id="myimg9" data-src="assets/images/ali-yahya-MyfSxRrKN9E-unsplash.png" class="lazy mage-food" alt="">
+              <img id="myimg9" data-src="assets/images/ali-yahya-MyfSxRrKN9E-unsplash.png" class="lazy image-millens" alt="">
               <div class="shadow">
                   <p>Seni Tari</p>
               </div>
             </div>
             <div class="content-img-bottom"> 
-                <img id="myimg10" data-src="assets/images/andreas-heimann-gyLrgS00gvw-unsplash_compress14.jpg" class="lazy mage-food" alt=""> 
+                <img id="myimg10" data-src="assets/images/andreas-heimann-gyLrgS00gvw-unsplash_compress14.jpg" class="lazy image-millens" alt=""> 
                  <div class="shadow">
                   <p>Belajar Keras</p>
               </div>
             </div>
   					<div class="content-img-bottom"> 
-                <img id="myimg11" data-src="assets/images/zachary-nelson-98Elr-LIvD8-unsplash_compress71.jpg" class="lazy mage-food" alt="">
+                <img id="myimg11" data-src="assets/images/zachary-nelson-98Elr-LIvD8-unsplash_compress71.jpg" class="lazy image-millens" alt="">
                  <div class="shadow">
                   <p>Gambar 4</p>
               </div>
             </div>
   					<div class="content-img-bottom"> 
-                <img id="myimg12" data-src="assets/images/guille-alvarez-6bVeZWa5VSE-unsplash.png" class="lazy mage-food" alt="">
+                <img id="myimg12" data-src="assets/images/guille-alvarez-6bVeZWa5VSE-unsplash.png" class="lazy image-millens" alt="">
                  <div class="shadow">
                   <p>Gambar 4</p>
               </div>
@@ -377,7 +377,7 @@
   			</div>
 			
   			<div class="vid">
-            <img id="thumb" data-src="assets/images/1568638541872_compress77.jpg"  class="lazy mage-food"   alt="">
+            <img id="thumb" data-src="assets/images/1568638541872_compress77.jpg"  class="lazy image-millens"   alt="">
               <div class="video-click">
                 <img id="vid-1" src="assets/images/vidbutt.png" data-url="assets/video/Ini Lho Uniknya Generasi Millenial di Dunia Kerja!.mp4">
               </div>
@@ -445,7 +445,7 @@
 	</body>
 		<script src="assets/js/jquery.js" type="text/javascript" ></script>
     <script src="assets/js/jquery.lazy.min.js" type="text/javascript" ></script>
-
+    <script src="assets/js/slick.min.js"></script>
     <script>
        $(function() {
           $('.lazy').Lazy();
@@ -458,27 +458,8 @@
       });
     </script>
 
-  <script src="assets/js/slick.min.js">
      
-    // $(".img-top").slick({
-        
-   //     slidesToShow: 1,
-   //     slidesToScroll: 1,
-      
-   //     prevArrow: $('.prev1'), 
-   //     nextArrow: $('.next1')
-
-    // });
-
-
-     $(".img-bottom").slick({
-         infinite: true,
-          slidesToShow: 2,
-         slidesToScroll: 2,
-         prevArrow: $('.prev2'), 
-       nextArrow: $('.next2')  
-    });
-  </script>
+  
   <script>
     // $(".slider-area").slick({
     //     dots: true,
