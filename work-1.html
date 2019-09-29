@@ -54,7 +54,7 @@
 									<img src="assets/images/icon-twiter.svg" alt="">
 								</div>
 								<div class="ig">
-									<img src="assets/images/icon-ig.svg" alt="">
+									<img src="assets/images/mask group 12.svg" alt="">
 								</div>
 								<div class="linkedin">
 									<img src="assets/images/icon-linkedin.svg" alt="">
@@ -177,7 +177,7 @@
                   <img src="assets/images/icon-twiter.svg" alt="">
                 </div>
                 <div class="ig">
-                  <img src="assets/images/icon-ig.svg" alt="">
+                  <img src="assets/images/mask group 12.svg" alt="">
                 </div>
               </div>
       </div>
@@ -194,7 +194,7 @@
 	  				<span>3 Cara Cerdas Atur Duit untuk Generasi Milenial</span>
 	  				<div class="line"></div>
 	  				<div class="img">
-	  					<img id="myimg4"  src="assets/images/bady-qb-67GC0YaeGQc-unsplash.png" alt="">
+	  					<img id="myimg4"  data-src="assets/images/bady-qb-67GC0YaeGQc-unsplash_compress18.jpg" class="lazy image-millens" alt="">
 	  					<div class="desc">
 	  						<div class="f-one">
 	  							<p>Liputan6.com, Jakarta - Gaya hidup generasi milenial yang selalu ingin mengikuti tren terkini dalam segala hal, membuat mereka sering menghamburkan begitu banyak uangnya sia-sia. Selain itu, mereka juga tidak dapat mengatur dengan baik keuangan.</p>
@@ -211,7 +211,7 @@
 		  			<div class="tips-one">
 		  				<span><a href="#">1. Tinggalkanlah Kebiasaan Buruk yang Membuat Boros</a></span>
 		  				<div class="line"></div>
-		  				<img src="assets/images/1568953463133_compress58.jpg" alt="">
+		  				<img data-src="assets/images/1568953463133_compress58.jpg" class="lazy image-millens" alt="">
 		  				<div class="desc-one">
 		  					<p class="p1">Jika Anda memiliki kebiasaan seperti hangout bersama teman di cafe, makan malam di restoran ternama, dan selalu membeli kopi di coffee shop, maka mulailah untuk mengurangi kebiasaan-kebiasaan tersebut.</p>
 		  					<br>
@@ -223,7 +223,7 @@
 		  			<div class="tips-two">
 		  				<span><a href="detail-selebgram.html">2. Gunakanlah Uang dengan Bijak</a></span>
 		  				<div class="line"></div>
-		  				<img src="assets/images/1568953439754_compress71_compress97.jpg" alt="">
+		  				<img data-src="assets/images/1568953439754_compress71_compress97.jpg" class="lazy image-millens" alt="">
 		  				<div class="desc-two">
 		  					<p class="p1">Mulailah menggunakan uang Anda secara bijak. Jika Anda menginginkan sesuatu yang besar dan mahal, jangan tergesa-gesa untuk membelinya. Pikirkanlah kembali apakah benda tersebut memang harus Anda beli dalam waktu dekat ini atau tidak.</p>
 		  					<br>
@@ -233,7 +233,7 @@
 		  			<div class="tips-three">
 		  				<span><a href="detail-selebgram.html">3. Bersabarlah untuk Mencapai Goals Anda</a></span>
 		  				<div class="line"></div>
-		  				<img src="assets/images/1568953549116_compress86_compress98.jpg" alt="">
+		  				<img data-src="assets/images/1568953549116_compress86_compress98.jpg" class="lazy image-millens" alt="">
 		  				<div class="desc-three">
 		  					<p class="p1">Jika Anda memiliki suatu target kedepanya misal ingin membeli mobil baru ataupun menikah, maka bersabarlah. Hal ini tentunya membutuhkan uang yang begitu banyak, namun jangan memaksakan diri Anda untuk bekerja terlalu keras agar bisa mengumpulkan uang lebih cepat.</p>
 		  					<br>
@@ -241,7 +241,7 @@
 		  				</div>
 		  			</div>
 		  			<div class="share">
-		  				<span>Share:</span>
+		  				<span>Bagikan :</span>
 		  				<div class="img-share">
 		  					<img src="assets/images/Mask Group 23.svg" alt="">
 		  					<img src="assets/images/Mask Group 21.svg" alt="">
@@ -296,7 +296,14 @@
 		
 			
 	</body>
-		<script src="./assets/js/jquery.js" type="text/javascript" ></script>
+	<script src="assets/js/jquery.js" type="text/javascript" ></script>
+    <script src="assets/js/jquery.lazy.min.js" type="text/javascript" ></script>
+	<script src="assets/js/app.js" type="text/javascript" ></script>
 
-		<script src="./assets/js/app.js" type="text/javascript" ></script>
+    <script>
+      $(function() {
+          $('.lazy').Lazy();
+          placeholder : "data:image/assets/images/loader.svg"
+      });
+    </script>
 </html>

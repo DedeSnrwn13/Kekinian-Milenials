@@ -72,7 +72,6 @@
   src: url(".././fonts/Roboto-Bold.ttf");
 }
 
-/**
 
 
 /**
@@ -202,7 +201,6 @@ header {
   width: 100vw;
   height: 97px;
   background: #fff;
-
 }
 
 header .fixed {
@@ -218,12 +216,12 @@ header .social-media {
   width: 100%;
   height: 35px;
   background-color: #073C64;
-  position: relative;
 }
 
 header .social-media .container {
-  max-width: 1066px;
+  max-width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 header .social-media .container .left {
@@ -284,19 +282,19 @@ header .social-media .container .left .email span {
 
 header .social-media .right {
   float: right;
-  width: 140px;
+  width: unset;
   padding-top: 8px;
   padding-bottom: 8px;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
+  display: -webkit-box
 }
 
 header .social-media .right .fb {
   width: 20px;
   height: 20px;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 header .social-media .right .fb img {
@@ -306,7 +304,7 @@ header .social-media .right .fb img {
 header .social-media .right .twiter {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -317,7 +315,7 @@ header .social-media .right .twiter img {
 header .social-media .right .ig {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -328,8 +326,6 @@ header .social-media .right .ig img {
 header .social-media .right .linkedin {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
-  margin-right: 150px;
   cursor: pointer;
 }
 
@@ -345,16 +341,17 @@ header .navbar {
   z-index: +2000;
   -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
+  float: left;
 }
 
 header .navbar .container {
-  max-width: 1066px;
+  max-width: 80%;
+  position: relative;
   margin: 0 auto;
 }
 
 header .navbar .container a {
   float: left;
-  margin-left: 10px;
 }
 
 header .navbar .container a .logo {
@@ -368,13 +365,13 @@ header .navbar .container a .logo {
 header .navbar .container a .logo #logo-img {
   float: left;
   cursor: pointer;
-  width: 23px !important;
-  height: 25px !important;
+  width: 23px;
+  height: 25px;
 }
 
 header .navbar .container a .logo #logo-img .logo #logo-img img {
-  width: 23px !important;
-  height: 25px !important;
+  width: 23px;
+  height: 25px;
 }
 
  header .navbar .container a .logo #logo-text {
@@ -439,7 +436,7 @@ header .navbar .container .menu-bar ul li:nth-child(1) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(1) a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -458,7 +455,7 @@ header .navbar .container .menu-bar ul li:nth-child(2) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(2) a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -477,7 +474,7 @@ header .navbar .container .menu-bar ul li:nth-child(3) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(3) a {
-  text-decoration: none !important;
+  text-decoration: none;
   color:#0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -499,7 +496,7 @@ header .navbar .container .menu-bar ul li:nth-child(4) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(4) a {
-  text-decoration: none !important;
+  text-decoration: none ;
   color:#0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -527,7 +524,7 @@ header .navbar .container .menu-bar ul li:nth-child(5) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(5) a {
-  text-decoration: none !important;
+  text-decoration: none ;
   color: #0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -547,11 +544,11 @@ header .navbar .container .menu-bar ul li:hover:nth-child(5) {
 }
 
 header .navbar .container .search {
-  width: 225px;
+  width: unset;
   height: 40.42px;
   margin-top: 13px;
   float: left;
-  margin-left: 580px;
+  margin-left: 590px;
   cursor: pointer;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -560,7 +557,7 @@ header .navbar .container .search {
 }
 
 header .navbar .container .search input {
-  width: 200px;
+  width: 130px;
   height: 32px;
   float: left;
   outline: none;
@@ -588,8 +585,8 @@ header .navbar .container .leanguage {
   width: 43px;
   height: 20px;
   float: left;
-  margin-left: 10px;
   margin-top: 23px;
+  margin-left: 20px;
 }
 
 header .navbar .container .leanguage ul {
@@ -639,7 +636,6 @@ header .navbar .container .logOrRegist .btn-login {
   background-color: #073C64;
   font-family: OpenSans-Regular;
   float: left;
-  margin-left: 10px;
 }
 
 header .navbar .container .logOrRegist .btn-login a {
@@ -676,37 +672,247 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 
 .inspiration {
-  width: 100vw;
-  height: 700px;
+  width: 100%;
+  height: 2000px;
   float: left;
 }
 
 .inspiration .container {
-  max-width: 1066px;
+  max-width: 80%;
   margin: 0 auto;
 }
+.inspiration .container .opt {
+    width: 100%;
+    float: left;
+    height: unset;
+    margin-top: 10px;
+}
 
+.inspiration .container .opt p {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  float: left;
+}
+.inspiration .container .opt p a {
+  text-decoration: none;
+  color: #073C64;
+
+}
+
+.inspiration .container .opt img {
+  width: 4px;
+  height: 8px;
+  float: left;
+  position: relative;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 6px;
+}
 .inspiration .container span {
   font-family: Montserrat-Regular;
   font-size: 27px;
-  margin-top: 20px;
+  margin-top: 10px;
   float: left;
+  color: #2a2a2b;
 }
 
 .inspiration .container img {
   width: 100%;
   height: 460px;
-  margin-top: 23px;
+  float: left;
+  position: relative;
+}
+.inspiration .container .profile {
+  width: 100%;
+  height: unset;
+  float: left;
+  margin-top: 10px;
+}
+.inspiration .container .profile img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 50%;   
+  object-fit: cover;
 }
 
+.inspiration .container .profile .content {
+  width: unset;
+  height: unset;
+  float: left;
+  margin-left: 16px;
+}
 
+.inspiration .container .profile .content .top {
+  width: unset;
+  height: unset;
+  float: left;
+ 
+}
 
+.inspiration .container .profile .content .top p {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #2A2A2B;
+  float: left;
+  font-weight: 700;
+  margin-top: 6px;
+}
+.inspiration .container .profile .content .top a {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #6A6A6B;
+  opacity: .6;
+  float: left;
+  text-decoration: none;
+  border: 1px solid #6A6A6B;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 6px;
+  margin-left: 19px;
+  transition: .3s ease;
+  margin-top: 4px;
+}
+.inspiration .container .profile .content .top a:hover {
+  color: #FFFFFF;
+  background: #073C64;
+  transition: .3s ease;
+  border: none;
+  opacity: 1;
+}
 
+.inspiration .container .profile .content .bottom {
+  width: unset;
+  height: unset;
+  float: left;
+  display: block;
+  position: absolute;
+  margin-top: 30px; 
+}
+.inspiration .container .profile .content .bottom p {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #6A6A6B;
 
+}
+.desc {
+  width: 100%;
+  height: unset;
+  float: left;
+}
+.desc img {
+  width: 100%;
+  height: 490px;
+  float: left;
+  object-fit: cover;
+  margin-top: 20px;
+}
 
+.desc .text-content {
+  width: 100%;
+  height: unset;
+  float: left;
+  margin-top: 20px;
+}
+
+.desc .text-content  p.f-one,
+.desc .text-content p.f-two,
+.desc .text-content p.f-three,
+.desc .text-content  p.f-four,
+.desc .text-content p.f-five,
+.desc .text-content p.f-six {
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  color: #111111;
+}
+
+.desc .text-content  p.f-one:first-letter,
+.desc .text-content  p.f-two:first-letter,
+.desc .text-content  p.f-three:first-letter,
+.desc .text-content  p.f-four:first-letter,
+.desc .text-content  p.f-five:first-letter,
+.desc .text-content  p.f-six:first-letter {
+  margin-left: 20px;
+}
+
+.desc .text-content hr {
+  width: 100%;
+  height: .5px;
+  background: #707070;
+  opacity: .23;
+}
+.sosmed {
+  width: 100%;
+  height: unset;
+  float: left;
+  margin-top: 20px;
+}
+
+.sosmed .left {
+  width: unset;
+  height: unset;
+  float: left;
+}
+
+.sosmed .left .lsosmed {
+  width: unset;
+  height: unset;
+  float: left;
+}
+
+.sosmed .left .lsosmed svg {
+    width: 38px;
+    height: 35px;
+    float: left;
+}
+.sosmed .left .like {
+  width: unset;
+  height: unset;
+  float: left;
+  margin-left: 15px;
+}
+.sosmed .left .like p:nth-child(1),
+.sosmed .left .like p:nth-child(2) {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #2A2A2B;
+}
+
+.sosmed .right {
+  width: unset;
+  height: unset;
+  float: right;
+} 
+
+.sosmed .right .imgs {
+  width: unset;
+  height: unset;
+
+}
+.sosmed .right .imgs img:nth-child(1),
+.sosmed .right .imgs img:nth-child(2),
+.sosmed .right .imgs img:nth-child(3) {
+  width: 25px;
+  height: 25px;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+.sosmed .right .imgs img:nth-child(4) {
+  width: 30px;
+  height: 6px;
+  margin-top: 26px;
+}
+
+svg.svgLove path.laktif {
+  fill: #D75A4A;
+  transition: .3s ease;
+}
 
 footer {
-  width: 100vw;
+  width: 100%;
   height: 213px;
   background: #073C64;
   position: relative;
@@ -718,7 +924,7 @@ footer {
 }
 
 footer .container-two {
-  max-width: 1066px;
+  max-width: 80%;
   margin: 0 auto;
 }
 

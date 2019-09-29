@@ -72,7 +72,6 @@
   src: url(".././fonts/Roboto-Bold.ttf");
 }
 
-/**
 
 
 /**
@@ -220,7 +219,7 @@ header .social-media {
 }
 
 header .social-media .container {
-  max-width: 78vw;
+  max-width: 80%;
   margin: 0 auto;
   position: relative;
 }
@@ -283,13 +282,12 @@ header .social-media .container .left .email span {
 
 header .social-media .right {
   float: right;
-  width: 140px;
+  width: unset;
   padding-top: 8px;
   padding-bottom: 8px;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
+  display: -webkit-box
 }
 
 header .social-media .right .fb {
@@ -336,7 +334,7 @@ header .social-media .right .linkedin img {
 }
 
 header .navbar {
-  width: 100vw;
+  width: 100%;
   height: 62px;
   background-color: #FFFFFF;
   position: fixed;
@@ -347,7 +345,7 @@ header .navbar {
 }
 
 header .navbar .container {
-  max-width: 78vw;
+  max-width: 80%;
   position: relative;
   margin: 0 auto;
 }
@@ -672,7 +670,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .banner {
-  width: 100vw;
+  width: 100%;
   height: 490px;
   background: url("./../images/bannerompress90.jpg");
   background-repeat: no-repeat;
@@ -681,15 +679,15 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .banner .container {
-  max-width: 78vw;
+  max-width: 80%;
   position: relative;
   margin: 0 auto;
 }
 
 .banner .container .text-banner {
-  width: 709px;
+  width: 628px;
   height: 231px;
-  padding-top: 92px;
+  padding-top: 94px;
   float: left;
 }
 
@@ -716,8 +714,8 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .banner .container .text-banner .text-content-banner .btn-readMore-banner {
-  width: 152px;
-  height: 42px;
+  width: 132px;
+  height: 22px;
   cursor: pointer;
   -webkit-transition: 0.75s;
   transition: 0.75s;
@@ -733,10 +731,10 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   display: -webkit-box;
   display: flex;
   position: absolute;
-  padding-left: 13px;
-  padding-right: 13px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -770,7 +768,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   height: 290px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 42.9px;
+  padding-top: 99px;
   padding-bottom: 0px;
   position: absolute;
 }
@@ -798,7 +796,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .content-hoax .container #content-hoax-left .text-title #text-content-hoax {
   width: 548px;
-  height: 128px;
+  height: 94px;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 17px;
@@ -826,14 +824,12 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   width: 139px;
   height: 39px;
   background: #073C64;
-  margin-top: 30px;
   float: left;
   transition: .3s ease;
 }
 .content-hoax .container #content-hoax-left .text-title .btn-readMore-hoax:hover {
   transition: .3s ease;
   
-  margin-top: 10px;
 }
  
 
@@ -890,7 +886,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .content-hoax .container #content-hoax-right .img-hoax img {
   width: 390px;
-  height: 275px;
+  height: 255px;
   transition: .3s ease;
   box-sizing: border-box;
 }
@@ -905,8 +901,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   width: 38px;
   height: 41px;
   position: absolute;
-  margin-left: 1px;
-  margin-top: -38px;
+  margin-top: -58px;
 }
 
 .content-hoax .container #content-hoax-right .side-bottom-left img {
@@ -1081,12 +1076,13 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   box-sizing: border-box;
   transition: .3s ease;
    margin-top: 20px;
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.1);
+ 
 
 }
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:hover {
   transition: .3s ease;
   margin-top: 10px;
+   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.1);
 }
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya img {
   width: 345px;
@@ -1105,6 +1101,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   color: #B7B5B5;
   font-family: OpenSans-Regular;
   font-size: 14px;
+  margin-top: 5px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span {
@@ -1113,12 +1110,14 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-family: Montserrat-Regular;
   font-size: 18px;
   text-align: left;
+
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span a {
   text-decoration: none;
   color: #2A2A2B;
   width: 300px;
+  margin-top: 7px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya {
@@ -1276,10 +1275,12 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   background-repeat: no-repeat;
 }
 .parent .bg-one{
-  background-image: url("./../images/a-l-ya631mqQ7Ng-unsplash_compress2.jpg");
+  background-image: url("./../images/a-l-ya631mqQ7Ng-unsplash_compress93.jpg");
+  object-fit: cover;
 }
 .parent2 .bg-two{
   background-image: url("./../images/elevate-nYgy58eb9aw-unsplash_compress7.jpg");
+  object-fit: cover;
 }
 .parent p,
 .parent2 p {
@@ -1331,6 +1332,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   width: 525px;
   height: 290px;
   float: left;
+  object-fit: cover;
 
 }
 
@@ -1339,6 +1341,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   height: 290px;
   float: right;
   margin-left: 16px;
+  object-fit: cover;
 }
 
 .gallery .container .gal-img .img-bottom {
@@ -1354,24 +1357,28 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   width: 255px;
   height: 180px;
   float: left;
+  object-fit: cover;
 }
 
 .gallery .container .gal-img .img-bottom img#myimg10 {
   width: 255px;
   height: 180px;
   float: left;
+  object-fit: cover;
 }
 
 .gallery .container .gal-img .img-bottom img#myimg11 {
   width: 255px;
   height: 180px;
   float: left;
+  object-fit: cover;
 }
 
 .gallery .container .gal-img .img-bottom img#myimg12 {
   width: 255px;
   height: 180px;
   float: left;
+  object-fit: cover;
 }
 .content-img-bottom {
   width: 255px;
@@ -1473,13 +1480,14 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .video {
-  width: 100vw;
-  height: 650px;
+  width: 100%;
+  height: 700px;
   float: left;
+  text-align: center;
 }
 
 .video .container {
-  max-width: 78vw;
+  max-width: 80%;
   position: relative;
   margin: 0 auto;
   height: unset;
@@ -1491,14 +1499,19 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   float: left;
 }
 
-.video .container .tvideo span {
+.video .container .tvideo h3.titl {
   width: 100%;
   height: 41px;
   font-family: OpenSans-Bold;
   font-size: 30px;
   float: left;
   color: #073C64;
-  position: relative;
+  position: absolute;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
 .video .container .tvideo .line {
@@ -1507,6 +1520,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   background: #FDD34C;
   display: block;
   float: left;
+  margin-top: 40px;
 }
 
 .video .container .vid {
@@ -1536,22 +1550,37 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   object-position: center;
   position: relative;
 }
-#thumb {
-  width: 100%;
+.vid img.hitam {
+  position: absolute;
+  object-fit: cover;
+}
+img#thumb {
+  width: 1088px;
   height: 490px;
   position: relative;
+  object-fit: cover;
 }
+
+/*#vid-1 {
+  display: none;
+}*/
 
 .vid .video-click {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding-left: 1000px;
+  margin-top: -30px;
 }
 
-.vi .video-click img {
+.vid .video-click img {
   position: absolute;
   z-index: 5;
-  width: 50px;
+  width: 90px;
   cursor: pointer;
   -webkit-transition: .4s ease;
   transition: .4s ease;
@@ -1575,6 +1604,21 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   top: 0;
   float: left;
   cursor: pointer;
+}
+
+.video .container a {
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  color: #777777;
+  background: transparent;
+  border: 2px solid #C6C6C6;
+  text-decoration: none;
+  margin-top: 18px;
 }
 
 .popup-vid {
@@ -1667,7 +1711,7 @@ img.lazy {
 
 
 footer {
-  width: 100vw;
+  width: 100%;
   height: 213px;
   background: #073C64;
   position: relative;
@@ -1679,7 +1723,7 @@ footer {
 }
 
 footer .container-two {
-  max-width: 78vw;
+  max-width: 80%;
   position: relative;
   margin: 0 auto;
 }
@@ -1966,6 +2010,7 @@ section {
   .social-media .container {
     max-width: 80vw !important;
     margin: 0 auto;
+    
   }
   .social-media .container .left {
     padding-top: 12px !important;

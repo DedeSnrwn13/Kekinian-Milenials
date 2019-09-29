@@ -72,7 +72,6 @@
   src: url(".././fonts/Roboto-Bold.ttf");
 }
 
-/**
 
 
 /**
@@ -202,7 +201,6 @@ header {
   width: 100vw;
   height: 97px;
   background: #fff;
-
 }
 
 header .fixed {
@@ -218,12 +216,12 @@ header .social-media {
   width: 100%;
   height: 35px;
   background-color: #073C64;
-  position: relative;
 }
 
 header .social-media .container {
-  max-width: 1066px;
+  max-width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 header .social-media .container .left {
@@ -284,19 +282,19 @@ header .social-media .container .left .email span {
 
 header .social-media .right {
   float: right;
-  width: 140px;
+  width: unset;
   padding-top: 8px;
   padding-bottom: 8px;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
+  display: -webkit-box
 }
 
 header .social-media .right .fb {
   width: 20px;
   height: 20px;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 header .social-media .right .fb img {
@@ -306,7 +304,7 @@ header .social-media .right .fb img {
 header .social-media .right .twiter {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -317,7 +315,7 @@ header .social-media .right .twiter img {
 header .social-media .right .ig {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -328,8 +326,6 @@ header .social-media .right .ig img {
 header .social-media .right .linkedin {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
-  margin-right: 150px;
   cursor: pointer;
 }
 
@@ -345,16 +341,17 @@ header .navbar {
   z-index: +2000;
   -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
+  float: left;
 }
 
 header .navbar .container {
-  max-width: 1066px;
+  max-width: 80%;
+  position: relative;
   margin: 0 auto;
 }
 
 header .navbar .container a {
   float: left;
-  margin-left: 10px;
 }
 
 header .navbar .container a .logo {
@@ -368,13 +365,13 @@ header .navbar .container a .logo {
 header .navbar .container a .logo #logo-img {
   float: left;
   cursor: pointer;
-  width: 23px !important;
-  height: 25px !important;
+  width: 23px;
+  height: 25px;
 }
 
 header .navbar .container a .logo #logo-img .logo #logo-img img {
-  width: 23px !important;
-  height: 25px !important;
+  width: 23px;
+  height: 25px;
 }
 
  header .navbar .container a .logo #logo-text {
@@ -439,7 +436,7 @@ header .navbar .container .menu-bar ul li:nth-child(1) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(1) a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -458,7 +455,7 @@ header .navbar .container .menu-bar ul li:nth-child(2) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(2) a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -477,7 +474,7 @@ header .navbar .container .menu-bar ul li:nth-child(3) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(3) a {
-  text-decoration: none !important;
+  text-decoration: none;
   color:#0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -499,7 +496,7 @@ header .navbar .container .menu-bar ul li:nth-child(4) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(4) a {
-  text-decoration: none !important;
+  text-decoration: none ;
   color:#0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -527,7 +524,7 @@ header .navbar .container .menu-bar ul li:nth-child(5) {
 }
 
 header .navbar .container .menu-bar ul li:nth-child(5) a {
-  text-decoration: none !important;
+  text-decoration: none ;
   color: #0A0A0A;
   -webkit-transition: .3s;
   transition: .3s;
@@ -547,11 +544,11 @@ header .navbar .container .menu-bar ul li:hover:nth-child(5) {
 }
 
 header .navbar .container .search {
-  width: 225px;
+  width: unset;
   height: 40.42px;
   margin-top: 13px;
   float: left;
-  margin-left: 580px;
+  margin-left: 590px;
   cursor: pointer;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -560,7 +557,7 @@ header .navbar .container .search {
 }
 
 header .navbar .container .search input {
-  width: 200px;
+  width: 130px;
   height: 32px;
   float: left;
   outline: none;
@@ -588,8 +585,8 @@ header .navbar .container .leanguage {
   width: 43px;
   height: 20px;
   float: left;
-  margin-left: 10px;
   margin-top: 23px;
+  margin-left: 20px;
 }
 
 header .navbar .container .leanguage ul {
@@ -639,7 +636,6 @@ header .navbar .container .logOrRegist .btn-login {
   background-color: #073C64;
   font-family: OpenSans-Regular;
   float: left;
-  margin-left: 10px;
 }
 
 header .navbar .container .logOrRegist .btn-login a {
@@ -680,7 +676,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .gallery .container {
-  max-width: 1066px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -749,7 +745,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 .gallery .container .gall .content-left {
-  width: 785px;
+  width: 100%;
   height: 500px;
   float: left;
 }
@@ -784,7 +780,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .content-img-top-22,
 .content-img-top-23,
 .content-img-top-24 {
-  width: 253px;
+  width: 260px;
   height: 170px;
   float: left;
   margin-top: 16px;
@@ -792,18 +788,20 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .content-img-top-2,
 .content-img-top-3,
-.content-img-top-5,
+.content-img-top-4,
 .content-img-top-6,
-.content-img-top-8, 
-.content-img-top-9,
+.content-img-top-7, 
+.content-img-top-8,
+.content-img-top-10,
 .content-img-top-11,
 .content-img-top-12,
 .content-img-top-14,
 .content-img-top-15,
-.content-img-top-17,
+.content-img-top-16,
 .content-img-top-18,
+.content-img-top-19,
 .content-img-top-20,
-.content-img-top-21,
+.content-img-top-22,
 .content-img-top-23,
 .content-img-top-24 {
   margin-left: 12px;
@@ -833,7 +831,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .content-img-top-22 img,
 .content-img-top-23 img,
 .content-img-top-24 img {
-  width: 253px;
+  width: 260px;
   height: 170px;
   float: left;
 }
@@ -862,13 +860,50 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .content-img-top-22 .shadow,
 .content-img-top-23 .shadow,
 .content-img-top-24 .shadow {
-  width: 253px;
+  width: 260px;
   height: 170px;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.50);
   z-index: 3;
   position: absolute;
   transition: .3s ease;
   text-align: center;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  opacity: 0;
+}
+
+.content-img-top-1 .shadow:hover,
+.content-img-top-2 .shadow:hover,
+.content-img-top-3 .shadow:hover,
+.content-img-top-4 .shadow:hover,
+.content-img-top-5 .shadow:hover,
+.content-img-top-6 .shadow:hover,
+.content-img-top-7 .shadow:hover,
+.content-img-top-8 .shadow:hover,
+.content-img-top-9 .shadow:hover,
+.content-img-top-10 .shadow:hover,
+.content-img-top-11 .shadow:hover,
+.content-img-top-12 .shadow:hover, 
+.content-img-top-13 .shadow:hover,
+.content-img-top-14 .shadow:hover,
+.content-img-top-15 .shadow:hover,
+.content-img-top-16 .shadow:hover,
+.content-img-top-17 .shadow:hover,
+.content-img-top-18 .shadow:hover,
+.content-img-top-19 .shadow:hover, 
+.content-img-top-20 .shadow:hover,
+.content-img-top-21 .shadow:hover,
+.content-img-top-22 .shadow:hover,
+.content-img-top-23 .shadow:hover,
+.content-img-top-24 .shadow:hover {
+  opacity: 1;
+  transition: .3s ease;
 }
 
 .content-img-top-1 .shadow span,
@@ -895,16 +930,18 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .content-img-top-22 .shadow span,
 .content-img-top-23 .shadow span,
 .content-img-top-24 .shadow span {
-  width: 100%;
+  text-align: center;
+  width: 80%;
   height: 100%;
   font-family: Montserrat-Bold;
   font-size: 13px;
   color: #FFFFFF;
-  margin-top: 70px;
+  padding-top: 50%;
+  display: block;
+
  /* padding-top: 170px;
   padding-left: 30px;*/
   opacity: 0;
-  display: block;
   transition: .3s;
 }
 
@@ -938,109 +975,6 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 }
 
 
-.gallery .container .gall .content-right {
-  width: 261px;
-  height: 1000px;
-  float: right;
-}
-
-.gallery .container .gall .content-right .title-two {
-  width: 261px;
-  height: 76px;
-  float: left !important;
-  border-left: 3px solid #FDD34C;
-  background: rgba(142, 142, 142, 0.09);
-}
-
-.gallery .container .gall .content-right .title-two p {
-  font-family: Montserrat-Regular;
-  font-size: 18px;
-  letter-spacing: .5px;
-  color: #073C64;
-  text-transform: uppercase;
-  padding-top: 26.5px;
-  padding-left: 20px;
-}
-
-.gallery .container .gall .content-right .img {
-  width: 261px;
-  height: 140px;
-  float: left;
-  margin-top: 11.5px;
-}
-
-.gallery .container .gall .content-right .img img {
-  width: 261px;
-  height: 140px;
-  float: left;
-}
-
-.gallery .container .gall .content-right .img .mask {
-  width: 261px;
-  height: 140px;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 3;
-  position: absolute;
-}
-
-.gallery .container .gall .content-right .date {
-  width: 210px;
-  height: 20px;
-  float: left;
-  margin-top: 15.5px;
-}
-
-.gallery .container .gall .content-right .date svg {
-  width: 18.67px;
-  height: 17px;
-  float: left;
-  fill: none;
-}
-
-.active {
-  fill: none;
-  transition: .2s ease;
-  background: #073C64;
-}
-
-.gallery .container .gall .content-right .date p {
-  font-family: Montserrat-Regular;
-  font-size: 15px;
-  float: left;
-  margin-left: 6px;
-  color:#8E8E8E;
-}
-
-.gallery .container .gall .content-right .content {
-  width: 281px;
-  height: 305px;
-  float: left;
-  margin-top: 16px;
-}
-
-.gallery .container .gall .content-right .content .title-content {
-  width: 281px;
-  height: 56px;
-  float: left;
-}
-
-.gallery .container .gall .content-right .content .title-content span {
-  font-family: Montserrat-Regular;
-  font-size: 17px;
-  color: #073C64;
-}
-
-.gallery .container .gall .content-right .content .text-content {
-  width: 261px;
-  height: 236px;
-  float: left;
-}
-
-.gallery .container .gall .content-right .content .text-content p {
-  font-family: OpenSans-Regular;
-  font-size: 14px;
-  color: #070707;
-}
 
 .popup-backdrop.active{
   opacity: 1;

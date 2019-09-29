@@ -746,6 +746,17 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   margin-left: 15px;
 }
 
+.inspirate .content-left .inspirate1 .profil p,
+.inspirate .content-left .inspirate2 .profil p,
+.inspirate .content-left .inspirate3 .profil p,
+.inspirate .content-left .inspirate4 .profil p {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  color: #2A2A2B;
+  margin-left: 23px;
+  float: left;
+}
+
 .inspirate .content-left .inspirate1 .profil span,
 .inspirate .content-left .inspirate2 .profil span,
 .inspirate .content-left .inspirate3 .profil span,
@@ -764,7 +775,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 .inspirate .content-left .inspirate3 .profil span a,
 .inspirate .content-left .inspirate4 .profil span a {
   text-decoration: none;
-  color: #1E1E1E;
+   color: #2A2A2B;
   transition: .3s ease;
 }
 
@@ -783,10 +794,81 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   float: left;
   width: 500px;
   height: 16px;
-  margin-left: 73px;
+  margin-left: 98px;
   margin-top: 30px;`
 }
 
+.wrapper-comm {
+  display: none;
+  transition: 1s ease;
+}
+.popup-comment {
+  width: 87%;
+  height: 60px;
+  background: transparent;
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-top: 50px;
+  transition: 1s ease;
+  margin-left: 96px;
+  border: 2px solid rgba(210,208,208,0.5);
+}
+
+.popup-comment .profilc {
+  float: left; 
+  width: unset;
+  height: 40px;
+}
+.popup-comment .profilc img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+.popup-comment .profilc h5 {
+  font-family: OpenSans-Regular;
+  font-size: 12px;
+  padding-top: 5px;
+  margin-left: 25px;
+  display: block;
+
+}
+.popup-comment .profilc input {
+  display: flex;
+  width: 500px;
+  margin-top: 5px;
+  margin-left: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  outline: none;
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+}
+.popup-comment .kirim {
+  width: unset;
+  height: unset;
+  margin-top: 20px;
+  float: right;
+  position: relative;
+}
+.popup-comment .kirim a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #073C64;;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: OpenSans-Regular;
+  font-size: 12px;
+}
 .inspirate .content-left .inspirate1 .col-bottom .comment,
 .inspirate .content-left .inspirate1 .col-bottom .react,
 .inspirate .content-left .inspirate1 .col-bottom .views,
@@ -802,12 +884,24 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   /*width: 95px;*/
   height: 16px;
   float: left;
+  cursor: pointer;
 }
 
-.inspirate .content-left .inspirate1 .col-bottom img,
-.inspirate .content-left .inspirate2 .col-bottom img,
-.inspirate .content-left .inspirate3 .col-bottom img,
-.inspirate .content-left .inspirate4 .col-bottom img  {
+.inspirate .content-left .inspirate1 .col-bottom .react,
+.inspirate .content-left .inspirate1 .col-bottom .views,
+.inspirate .content-left .inspirate2 .col-bottom .react,
+.inspirate .content-left .inspirate2 .col-bottom .views,
+.inspirate .content-left .inspirate3 .col-bottom .react,
+.inspirate .content-left .inspirate3 .col-bottom .views,
+.inspirate .content-left .inspirate4 .col-bottom .react,
+.inspirate .content-left .inspirate4 .col-bottom .views {
+  margin-left: 30px;
+}
+
+.inspirate .content-left .inspirate1 .col-bottom svg,
+.inspirate .content-left .inspirate2 .col-bottom svg,
+.inspirate .content-left .inspirate3 .col-bottom svg,
+.inspirate .content-left .inspirate4 .col-bottom svg  {
   width: 16px;
   height: 16px;
   float: left;
@@ -820,10 +914,13 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   font-family: Montserrat-Regular;
   font-size: 12px;
   color: #077777;
+  margin-left: 5px;
   float: left;
 }
 
-
+svg.love path {
+  fill: #000000;
+}
 .inspiration .container .inspirate .content-right {
   width: 260px;
   height: 400px;
@@ -904,6 +1001,18 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .inspiration .container .inspirate .content-right .dll .foll img {
   
+}
+img.lazy {
+  display: block;
+  background-image: url("../images/loader.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 30px;
+  height: 30px;
+}
+.image-millens {
+  margin: 0;
+  border: 0;
 }
 
 footer {
@@ -1161,6 +1270,12 @@ footer .container-two .footer-menu .notive .btn-notive span a {
   text-align: center;
 }
 
+.wrapper-comm.aktif{
+  top: 0;
+  transition: 1s ease;
+  display: block;
+
+}
 
 .navbar-responsive.actived{
   right: 0;

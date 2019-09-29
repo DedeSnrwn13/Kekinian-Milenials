@@ -32,7 +32,14 @@ hamburger.addEventListener('click',()=>{
 	$(".navbar-responsive").toggleClass("actived");
 });
 
-// const img_trigger = document.querySelectorAll('.img-hoax');
+$('.comment').click(function(){
+	$('.wrapper-comm').toggleClass("aktif")
+}
+// const img_trigger = document.
+
+
+
+h('.img-hoax');
 // img_trigger.addEventListener('click',()=>{
 // 	let data = this.attr(src);
 // 	console.log(data);
@@ -61,6 +68,8 @@ $('.popup-backdrop').click(function(){
 $(".btn").click(function(e){
 	$(".demo").toggleClass('active');
 })
+
+
 
 // btn
 
