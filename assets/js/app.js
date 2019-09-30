@@ -99,6 +99,11 @@ $('#vid-2').click(function(e){
   $('.vids-1').attr('src',data);
 });
 
+$('#vid-3').click(function(e){
+  $('.popup-area').addClass('activex');
+  var data = $(this).data('url');
+  $('.vids-1').attr('src',data);
+});
 // $(".img-bottom").slick({
 //     infinite: true,
 //     slidesToShow: 2,

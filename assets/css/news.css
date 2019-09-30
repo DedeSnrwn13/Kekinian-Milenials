@@ -1245,6 +1245,11 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   height: 208px;
   position: relative;
 }
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .vid .video-click {
   position: absolute;
@@ -1414,6 +1419,9 @@ img.lazy {
 }
 
 video {
+  width: 100%;  
+  height: 100%;
+  object-fit: cover;
   outline: none;
 }
 
@@ -3265,7 +3273,7 @@ section {
     position: fixed;
   }
   header .navbar .container {
-    max-width: 284px !important;
+    width: 85%;
     margin: 0 auto;
     position: relative;
   }
@@ -3488,10 +3496,79 @@ section {
   #bottom-xs .fb {
     margin-left: 65px !important;
   }
-
-
+  
+  .news .title {
+    margin-top: 20px;
+  }
+  .news .container .title span {
+    font-size: 20px;
+    height: unset;
+  }
+  .news .container .news-now .content-left {
+    width: 100%;
+    height: unset;
+  }
+  .news .container .content-right {
+    width: 100% !important;
+  }
+  .news .container .news-now .content-right .text-content {
+    margin-left: 0;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya {
+    margin-top: 0;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya, .article .container .content-article-lainnya .low-content-article-lainnya, .video .container .low-content-video-lainnya .vid {
+    width: 300px; 
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya img, .article .container .content-article-lainnya .low-content-article-lainnya img, .video .container .low-content-video-lainnya .vid img#thumb {
+    width: 300px;
+  }
+  .article .container .content-article-lainnya .low-content-article-lainnya img,
+  .video .container .low-content-video-lainnya img {
+    object-fit: cover;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya img, .article .container .content-article-lainnya .low-content-article-lainnya img, .video .container .low-content-video-lainnya .vid img#thumb {
+    object-fit: cover;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(2), .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(3) {
+    margin-left: 10px;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya,
+  .article .container .content-article-lainnya .low-content-article-lainnya,
+  .video .container .low-content-video-lainnya .vid {
+    margin-left: 11px;
+    margin-top: 50px;
+  }
+  .video .container .low-content-video-lainnya .vid {
+    height: 250px;
+  }
+  .vid .video-click {
+    margin-left: 120px;
+    margin-top: -90px;
+  }
+  .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low {
+    height: unset !important;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya, .article .container .content-article-lainnya .low-content-article-lainnya .btn-readMore-article-lainnya {
+    padding-top: 0;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low, .article .container .content-article-lainnya .low-content-article-lainnya .text-article-low, .video .container .low-content-video-lainnya .vid .text-video-low {
+    padding-top: 10px;
+  }
+  .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(1),
+  .article .container .content-article-lainnya .low-content-article-lainnya:nth-child(1),
+  .video .container .low-content-video-lainnya:nth-child(1) {
+    margin-top: 0;
+  }
+  
+  .copyright .c-bottom span {
+    padding-top: 0 !important;
+  }
+  .copyright .c-bottom p {
+    padding-bottom: 30px;
+  }
   footer {
-    height: 600px;
+    height: 550px;
   }
   footer .container-two {
     max-width: 85% !important;

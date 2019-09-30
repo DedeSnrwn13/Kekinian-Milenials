@@ -220,7 +220,7 @@ header .social-media {
 }
 
 header .social-media .container {
-  max-width: 78vw;
+  max-width: 80%;
   margin: 0 auto;
   position: relative;
 }
@@ -283,7 +283,7 @@ header .social-media .container .left .email span {
 
 header .social-media .right {
   float: right;
-  width: 140px;
+  width: unset;
   padding-top: 8px;
   padding-bottom: 8px;
   display: -webkit-flex;
@@ -336,7 +336,7 @@ header .social-media .right .linkedin img {
 }
 
 header .navbar {
-  width: 100vw;
+  width: 100%;
   height: 62px;
   background-color: #FFFFFF;
   position: fixed;
@@ -347,7 +347,7 @@ header .navbar {
 }
 
 header .navbar .container {
-  max-width: 78vw;
+  max-width: 80%;
   position: relative;
   margin: 0 auto;
 }
@@ -1903,8 +1903,9 @@ section {
   }
 
   header .social-media .container .left .email img {
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 20px !important;
+    margin-top: 3px;
   }
 
   header .social-media .container .left .email span {
@@ -1917,7 +1918,7 @@ section {
 
   header .social-media .right {
     float: right;
-    width: 75px;
+    width: unset !important;
     padding-top: 11px !important;
     padding-bottom: 8px;
     display: -webkit-flex;
@@ -1942,7 +1943,9 @@ section {
     margin-left: 5px;
     cursor: pointer;
   }
-
+header .social-media .right .ig {
+  margin-right: 0 !important;
+}
   header .social-media .right .twiter img {
     height: 100%;
     width: 100%;
@@ -1958,12 +1961,6 @@ section {
     height: 100%;
   }
 
-  header .social-media .right .linkedin {
-    width: 15px !important;
-    height: 15px !important;
-    margin-right: 0px;
-    cursor: pointer;
-  }
 
   header .social-media .right .linkedin img {
     height: 100%;
@@ -3389,6 +3386,15 @@ section {
   } 
   .destination span {
     font-size: 16px !important;
+  }
+  .what, .why, .doing {
+    margin-left: 10px;
+  }
+  .ourteam .line {
+    margin-left: 20px!important;
+  }
+  .cardOne, .cardTwo, .cardThree {
+    margin-left: 50px;
   }
 
 }

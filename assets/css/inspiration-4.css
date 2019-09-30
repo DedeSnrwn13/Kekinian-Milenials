@@ -673,7 +673,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
 
 .inspiration {
   width: 100%;
-  height: 2000px;
+  height: 1700px;
   float: left;
 }
 
@@ -818,19 +818,27 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   margin-top: 20px;
 }
 
-.desc .text-content  p.f-one,
-.desc .text-content p.f-two,
-.desc .text-content p.f-three,
-.desc .text-content  p.f-four {
+.desc .text-content .f-one  span,
+.desc .text-content .f-two span,
+.desc .text-content .f-three span,
+.desc .text-content .f-four  span {
+  font-family: Montserrat-regular;
+  font-size: 25px;
+  width: 100%;
+}
+.desc .text-content .f-one  p,
+.desc .text-content .f-two p,
+.desc .text-content .f-three p,
+.desc .text-content .f-four  p {
   font-family: OpenSans-Regular;
   font-size: 17px;
   color: #111111;
 }
 
-.desc .text-content  p.f-one:first-letter,
-.desc .text-content  p.f-two:first-letter,
-.desc .text-content  p.f-three:first-letter,
-.desc .text-content  p.f-four:first-letter {
+.desc .text-content .f-one  p:first-letter,
+.desc .text-content .f-two  p:first-letter,
+.desc .text-content .f-three  p:first-letter,
+.desc .text-content .f-four  p:first-letter {
   margin-left: 20px;
 }
 
