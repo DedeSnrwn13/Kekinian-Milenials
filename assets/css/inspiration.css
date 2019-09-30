@@ -284,7 +284,7 @@ header .social-media .container .left .email span {
 
 header .social-media .right {
   float: right;
-  width: 140px;
+  width: unset;
   padding-top: 8px;
   padding-bottom: 8px;
   display: -webkit-flex;
@@ -932,21 +932,22 @@ svg.love path {
   text-decoration: none;
 }
 
-.inspiration .container .inspirate .content-right a .btn {
-  width: 260px;
+.inspiration .container .inspirate .content-right .btn {
+  text-align: center;
+    width: 260px;
   height: 42px;
   float: left;
   background: #073C64;
 }
+.inspiration .container .inspirate .content-right .btn a{
+  padding-top: 13px;
+}
 
-.inspiration .container .inspirate .content-right a .btn p {
+.inspiration .container .inspirate .content-right .btn  p {}
+.inspiration .container .inspirate .content-right .btn a {
   font-family: Montserrat-Regular;
   font-size: 13px;
   color: #FFFFFF;
-  padding-left: 66.5px;
-  padding-right: 66.5px;
-  padding-top: 13px;
-  padding-bottom: 13px;
 }
 
 .inspiration .container .inspirate .content-right .dll {
