@@ -34,12 +34,12 @@ hamburger.addEventListener('click',()=>{
 
 $('.comment').click(function(){
 	$('.wrapper-comm').toggleClass("aktif")
-}
+})
 // const img_trigger = document.
 
 
 
-h('.img-hoax');
+// h('.img-hoax');
 // img_trigger.addEventListener('click',()=>{
 // 	let data = this.attr(src);
 // 	console.log(data);

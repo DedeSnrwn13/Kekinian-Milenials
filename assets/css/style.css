@@ -1619,6 +1619,14 @@ img#thumb {
   border: 2px solid #C6C6C6;
   text-decoration: none;
   margin-top: 18px;
+  transition: .3s ease;
+}
+
+.video .container a:hover {
+  background: #073C64;
+  color: #FFFFFF;
+  border: none;
+  transition: .3s ease;
 }
 
 .popup-vid {
